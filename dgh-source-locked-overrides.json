@@ -1,0 +1,34 @@
+{
+  "DGHAOV40": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHAOV90": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHAOV230": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHAOV470": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHAOV950": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHAOV1430": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHAOV2390": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_AOV_DENOMINATION"
+  },
+  "DGHMBL875": {
+    "classification": "TOP-UP",
+    "reason": "SOURCE_LOCKED_DGH_DENOMINATION"
+  }
+}

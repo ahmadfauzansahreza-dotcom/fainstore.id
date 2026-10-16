@@ -1,0 +1,1769 @@
+{
+  "smile-non-indo": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "adventure-pack-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "basic-pass-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "battle-pass-classic-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "battle-pass-special-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "be-the-king-asia-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "be-the-king",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Be The King",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "be-the-king-europe-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "be-the-king",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Be The King",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "be-the-king-us-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "be-the-king",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Be The King",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "blessing-of-the-welkin-moon-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "genshin-impact",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Genshin Impact",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "blessing-of-the-welkin-moon-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "genshin-impact",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Genshin Impact",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "bp-card": {
+    "type": "GAME",
+    "parentSlug": "bp-card",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "BP Card",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "collector-edition-pass-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "crystals-light-of-thei-gp": {
+    "type": "GAME",
+    "parentSlug": "crystals-light-of-thei",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Crystals Light Of Thei",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-feedback-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-feedback-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-feedback-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-selection-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-selection-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-selection-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-specials-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-specials-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "daily-specials-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "dapat-mid-year-festival-pack-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "devine-mu-origin-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mu-origin",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MU Origin",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "divine-mu-origin-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "mu-origin",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MU Origin",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "divine-mu-origin-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mu-origin",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MU Origin",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "eudemons-online-unipin-my-eudemons-points": {
+    "type": "GAME",
+    "parentSlug": "eudemons-online",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Eudemons Online",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "genesis-crystals-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "genshin-impact",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Genshin Impact",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "genesis-crystals-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "genshin-impact",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Genshin Impact",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "golden-star-super-sus": {
+    "type": "GAME",
+    "parentSlug": "super-sus",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Super Sus",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "goldstar-super-sus-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "super-sus",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Super Sus",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "goldstar-super-sus-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "super-sus",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Super Sus",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "great-adventure-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "great-adventurer-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "great-adventurer-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "growth-fund-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "growth-fund-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "growth-fund-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "growth-fund-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "hago": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago source game",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "hago-bangsawan-inquiry": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "hago-inquiry": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "idle-legend-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "idle-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Idle Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "kartu-bulanan": {
+    "type": "GAME",
+    "parentSlug": "weekly-monthly-card",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Weekly / Monthly Card",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "kartu-mingguan": {
+    "type": "GAME",
+    "parentSlug": "weekly-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Weekly Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "lifeafter-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "lifeafter",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "LifeAfter",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lifeafter-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "lifeafter",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "LifeAfter",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lifeafter-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "lifeafter",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "LifeAfter",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lita-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "lita",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Lita",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lord-mobile-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "lords-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Lords Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lord-mobile-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "lords-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Lords Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ludo-club-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "ludo-club",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ludo Club",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ludo-club-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "ludo-club",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ludo Club",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mangatoon-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mangatoon",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MangaToon",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mangatoon-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mangatoon",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MangaToon",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mirage-perfect-skyline-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "mirage-perfect-skyline",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mirage: Perfect Skyline",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mirage-perfect-skyline-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mirage-perfect-skyline",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mirage: Perfect Skyline",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "monthly-card-classic-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "monthly-card-days-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "monthly-card-premium-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "monthly-pass-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mu-origin-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "mu-origin",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MU Origin",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mu-origin-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mu-origin",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MU Origin",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mu-origin-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mu-origin",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "MU Origin",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "newbie-pack-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "nhago": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "nhagok": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "pembelian-hari-revelation-gifts-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "point-blank-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "point-blank",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Point Blank",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "premium-pass-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "premium-pass-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "premium-pass-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "promotion-pass-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "promotion-pass-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "promotion-pass-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "rookie-supplies-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "sausage-man-gp": {
+    "type": "GAME",
+    "parentSlug": "sausage-man",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Sausage Man",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "sausage-man-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "sausage-man",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Sausage Man",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "sausage-man-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "sausage-man",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Sausage Man",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "senior-adventurer-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "senior-adventurer-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "senior-adventurer-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "star-marvel-super-war-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "marvel-super-war",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Marvel Super War",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "star-marvel-super-war-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "marvel-super-war",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Marvel Super War",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "star-marvel-super-war-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "marvel-super-war",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Marvel Super War",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "star-quartz-hyper-front-sea-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "hyper-front",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Hyper Front",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starfall-fantasy-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "starfall-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Starfall Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starlight-member-plus-br": {
+    "type": "GAME",
+    "parentSlug": "starlight-member",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Starlight Member",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "tanium-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "tanium-tower-of-fantasy-gp-global": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "tanium-tower-of-fantasy-gp-sea": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "twilight-ml-smile": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "twilight-pass-br": {
+    "type": "GAME",
+    "parentSlug": "twilight-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Twilight Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "twilight-pass-kcid": {
+    "type": "GAME",
+    "parentSlug": "twilight-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Twilight Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "upgrade-awards-never-after-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "upgrade-awards-never-after-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "upgrade-awards-never-after-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "never-after",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Never After",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "upgrade-pass-tower-of-fantasy-global-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "tower-of-fantasy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tower of Fantasy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "webpay-gift-newbie-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "webpay-gift-promotion-revelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "webpay-gift-specialrevelation-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "revelation",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Revelation",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "weekly-pass-kcid": {
+    "type": "GAME",
+    "parentSlug": "weekly-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Weekly Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "weekly-pass-smile-non-indo": {
+    "type": "GAME",
+    "parentSlug": "weekly-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Weekly Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "weekly-pass-unipin-br": {
+    "type": "GAME",
+    "parentSlug": "weekly-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Weekly Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "x-weekly-pass-ml-gp": {
+    "type": "GAME",
+    "parentSlug": "weekly-pass",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Weekly Pass",
+    "parentType": "CATEGORY",
+    "parentVirtual": false
+  },
+  "mobile-legend-gp-id": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-dghost": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-dgr": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-global": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-global-gp": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-gp": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-kcid": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-rzid": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-unipin": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-unipin-br": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mobile-legend-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starlight-member-mobile-legend-br": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starlight-member-mobile-legend-global": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starlight-member-mobile-legend-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starlight-member-plus-mobile-legend-global": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "starlight-member-plus-mobile-legend-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "twilight-pass-mobile-legend-global": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "twilight-pass-mobile-legend-gp-id": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "twilight-pass-mobile-legend-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "twilight-pass-mobile-legend-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "weekly-pass-mobile-legend-gp-id": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "x-weekly-pass-mobile-legend": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "x-weekly-pass-mobile-legend-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "x-weekly-pass-mobile-legend-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ace-racer-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "ace-racer",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ace Racer",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ace-racer-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "ace-racer",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ace Racer",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ace-racer-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "ace-racer",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ace Racer",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "aov-dgh": {
+    "type": "GAME",
+    "parentSlug": "aov",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Arena of Valor",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "aov-dgr": {
+    "type": "GAME",
+    "parentSlug": "aov",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Arena of Valor",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "aov-kiosgamer": {
+    "type": "GAME",
+    "parentSlug": "aov",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Arena of Valor",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "aov-vouchers": {
+    "type": "GAME",
+    "parentSlug": "aov",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Arena of Valor",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "big-cat-coinsragnarok-m-eternal-love-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "big-cat-ragnarok-m-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "big-cat-ragnarok-m-eternal-love-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "limited-special-gift-ragnarok-m-eternal-love-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "nyan-berry-ragnarok-origin-global": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ragnarok-nyan-berry-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "ragnarok-origin-unipin-my-nyan-berry": {
+    "type": "GAME",
+    "parentSlug": "ragnarok",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Ragnarok",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "bigo-live-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "bigo-live",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Bigo Live",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "blessing-of-the-welkin-moon-genshin-impact-gp": {
+    "type": "GAME",
+    "parentSlug": "genshin-impact",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Genshin Impact",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "genesis-crystals-genshin-impact-gp": {
+    "type": "GAME",
+    "parentSlug": "genshin-impact",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Genshin Impact",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "call-of-duty-dgr": {
+    "type": "GAME",
+    "parentSlug": "call-of-duty-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Call of Duty Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "call-of-duty-mobile": {
+    "type": "GAME",
+    "parentSlug": "call-of-duty-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Call of Duty Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "call-of-duty-mobile-up": {
+    "type": "GAME",
+    "parentSlug": "call-of-duty-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Call of Duty Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "codm-kiosgamer": {
+    "type": "GAME",
+    "parentSlug": "call-of-duty-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Call of Duty Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "coupuns-dragon-raja-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "dragon-raja",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Dragon Raja",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "dragon-raja-gp": {
+    "type": "GAME",
+    "parentSlug": "dragon-raja",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Dragon Raja",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "dragon-raja-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "dragon-raja",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Dragon Raja",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "investment-fund-dragon-raja-gp": {
+    "type": "GAME",
+    "parentSlug": "dragon-raja",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Dragon Raja",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "investment-fund-ii-dragon-raja-gp": {
+    "type": "GAME",
+    "parentSlug": "dragon-raja",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Dragon Raja",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "football-master-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "football-master",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Football Master",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "football-master-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "football-master",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Football Master",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-bulanan": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-dg": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-dgh": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-dghf": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-dgr": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-member-bulanan-new": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-member-bulanan-new-x": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-mingguan": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "free-fire-unipin": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "member-bulanan-free-fire": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "member-mingguan-free-fire": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "member-mingguan-free-fire-x": {
+    "type": "GAME",
+    "parentSlug": "free-fire",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Free Fire",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "garena-shell": {
+    "type": "GAME",
+    "parentSlug": "garena",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Garena",
+    "parentType": "PROVIDER",
+    "parentVirtual": false
+  },
+  "honkai-star-rail-gamepoint-express-supply-pass": {
+    "type": "GAME",
+    "parentSlug": "honkai-star-rail",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Honkai: Star Rail",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "honkai-star-rail-gamepoint-oneiric-shard": {
+    "type": "GAME",
+    "parentSlug": "honkai-star-rail",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Honkai: Star Rail",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "jewels-harry-potter-gp": {
+    "type": "GAME",
+    "parentSlug": "harry-potter",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Harry Potter",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "laplace-m-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "laplace-m",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Laplace M",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "laplace-m-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "laplace-m",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Laplace M",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lords-mobile-gp": {
+    "type": "GAME",
+    "parentSlug": "lords-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Lords Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "lords-mobile-unipin": {
+    "type": "GAME",
+    "parentSlug": "lords-mobile",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Lords Mobile",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "mango-live-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "mango-live",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Mango Live",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "metal-slug-awakening": {
+    "type": "GAME",
+    "parentSlug": "metal-slug",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Metal Slug",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "metal-slug-awakening-monthly-card": {
+    "type": "GAME",
+    "parentSlug": "metal-slug",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Metal Slug",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "metal-slug-awakening-premium-monthly-card": {
+    "type": "GAME",
+    "parentSlug": "metal-slug",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Metal Slug",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "naruto-slugfest-x-sea-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "naruto",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Naruto",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "naruto-slugfestx-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "naruto",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Naruto",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "naruto-slugfestx-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "naruto",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Naruto",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "omega-legends-gp": {
+    "type": "GAME",
+    "parentSlug": "omega-legends",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Omega Legends",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "omega-legends-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "omega-legends",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Omega Legends",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "one-punch-man-the-strongest-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "one-punch-man",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "One Punch Man",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "one-punch-man-the-strongest-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "one-punch-man",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "One Punch Man",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "one-punch-man-the-strongest-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "one-punch-man",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "One Punch Man",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "points-valorant-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "valorant",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Valorant",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "rb-google-play-dgh": {
+    "type": "GAME",
+    "parentSlug": "google-play",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Google Play",
+    "parentType": "PLATFORM",
+    "parentVirtual": false
+  },
+  "saint-seiya-awakening-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "saint-seiya",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Saint Seiya",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "saint-seiya-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "saint-seiya",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Saint Seiya",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "star-chips-project-entropy-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "project-entropy",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Project Entropy",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "tom-and-jerry-gp": {
+    "type": "GAME",
+    "parentSlug": "tom-and-jerry",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tom and Jerry",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "tom-and-jerry-unipin-my": {
+    "type": "GAME",
+    "parentSlug": "tom-and-jerry",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tom and Jerry",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "tom-and-jerry-unipin-ph": {
+    "type": "GAME",
+    "parentSlug": "tom-and-jerry",
+    "reason": "AUTO_CANDIDATE",
+    "parentName": "Tom and Jerry",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "bangsawan-knight-baru": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "bangsawan-knight-perpanjang": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "bangsawan-viscount-baru": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "bangsawan-viscount-perpanjang": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product",
+    "parentName": "Hago",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "dghmbl": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "DGHMBL Mobile Legend product",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "dgr": {
+    "type": "GAME",
+    "parentSlug": "point-blank-unipin-ph",
+    "reason": "DGR PB Cash products; existing PB source",
+    "parentName": "Point Blank Unipin PH",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "gem-goddess-of-victory-nikke-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "gem-goddess-of-victory-nikke-gamepoint",
+    "reason": "Existing source game",
+    "parentName": "Gem Goddess of Victory: Nikke Gamepoint",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "gem-of-victory-nikke-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "gem-of-victory-nikke-gamepoint",
+    "reason": "Existing source game",
+    "parentName": "Gem of Victory: Nikke Gamepoint",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "m-m-higgs-domino-md": {
+    "type": "GAME",
+    "parentSlug": "m-m-higgs-domino-md",
+    "reason": "Existing source game",
+    "parentName": "M + M Higgs Domino MD",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "glory-pass-premium": {
+    "type": "GAME",
+    "parentSlug": "garena-undawn",
+    "reason": "Undawn product family",
+    "parentName": "Garena Undawn",
+    "parentType": "GAME",
+    "parentVirtual": true
+  },
+  "growth-fund-rebate": {
+    "type": "GAME",
+    "parentSlug": "garena-undawn",
+    "reason": "Undawn product family",
+    "parentName": "Garena Undawn",
+    "parentType": "GAME",
+    "parentVirtual": true
+  },
+  "passe-de-grande-valor": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "Mobile Legend pass product",
+    "parentName": "Mobile Legend",
+    "parentType": "GAME",
+    "parentVirtual": false
+  },
+  "dgh": {
+    "type": "NON_GAME",
+    "parentSlug": null,
+    "reason": "Provider bucket with mixed PB Cash and CP products",
+    "parentType": "NONE"
+  },
+  "unipin": {
+    "type": "NON_GAME",
+    "parentSlug": null,
+    "reason": "Payment/top-up provider bucket",
+    "parentType": "NONE"
+  },
+  "inquiry-tokovoucher": {
+    "type": "SERVICE",
+    "parentSlug": null,
+    "reason": "Inquiry service",
+    "parentType": "NONE"
+  },
+  "other": {
+    "type": "NON_GAME",
+    "parentSlug": null,
+    "reason": "Fallback bucket",
+    "parentType": "NONE"
+  },
+  "": {
+    "type": "INVALID",
+    "parentSlug": null,
+    "reason": "Empty game slug/name",
+    "parentType": "NONE"
+  },
+  "garena-undawn": {
+    "type": "PARENT_GAME",
+    "parentSlug": "garena-undawn",
+    "parentName": "Garena Undawn",
+    "virtual": true,
+    "reason": "Parent game untuk produk RC, Glory Pass Premium, dan Growth Fund",
+    "parentType": "GAME",
+    "parentVirtual": true
+  }
+}

@@ -1,0 +1,306 @@
+===== VALIDATOR =====
+import { z } from "zod";
+
+export const productQuerySchema = z.object({
+  search: z.string().optional(),
+  game: z.string().optional(),
+  category: z.string().optional(),
+  minPrice: z.coerce.number().int().nonnegative().optional(),
+  maxPrice: z.coerce.number().int().nonnegative().optional(),
+  sort: z.enum(["newest", "oldest", "cheapest", "expensive", "popular", "bestselling"]).default("newest"),
+  page: z.coerce.number().int().min(1).default(1),
+  pageSize: z.coerce.number().int().min(1).max(48).default(24),
+});
+
+export const createProductSchema = z.object({
+  name: z.string().min(3),
+  gameId: z.string(),
+  categoryId: z.string().optional(),
+  type: z.enum(["GAME_ACCOUNT", "TOPUP"]),
+  description: z.string().optional(),
+  specifications: z.record(z.string(), z.unknown()).optional(),
+  priceIdr: z.number().int().positive(),
+  originalPriceIdr: z.number().int().positive().optional(),
+  discountPct: z.number().int().min(0).max(100).optional(),
+  stockQty: z.number().int().min(0).default(0),
+  warranty: z.string().optional(),
+  isFeatured: z.boolean().default(false),
+  isBestSeller: z.boolean().default(false),
+  isFlashSale: z.boolean().default(false),
+  images: z.array(z.string().url()).default([]),
+});
+
+export const updateProductSchema = createProductSchema.partial();
+
+===== PRODUCT CARD =====
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { Heart, Eye } from "lucide-react";
+import { formatIdr } from "@/lib/money";
+
+export interface ProductCardProps {
+  productId: string;
+  slug: string;
+  name: string;
+  imageUrl: string;
+  gameName: string;
+  priceIdr: number;
+  originalPriceIdr?: number | null;
+  discountPct?: number | null;
+  inStock: boolean;
+  soldCount: number;
+  rating?: number | null;
+  isFavorited?: boolean;
+  onToggleFavorite?: (slug: string) => void;
+}
+
+export function ProductCard({
+  productId,
+  slug,
+  name,
+  imageUrl,
+  gameName,
+  priceIdr,
+  originalPriceIdr,
+  discountPct,
+  inStock,
+  soldCount,
+  rating,
+  isFavorited,
+  onToggleFavorite,
+}: ProductCardProps) {
+  return (
+    <div className="group relative flex flex-col overflow-hidden rounded-xl2 border border-border bg-background-secondary/60 backdrop-blur-glass shadow-card transition-transform duration-300 hover:-translate-y-1 hover:shadow-glow">
+      <div className="relative aspect-square w-full overflow-hidden">
+        <Image
+          src={imageUrl}
+          alt={name}
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 768px) 50vw, 25vw"
+        />
+
+        {discountPct ? (
+          <span className="absolute left-2 top-2 rounded-full bg-gradient-brand px-2 py-1 text-xs font-semibold text-white">
+            -{discountPct}%
+          </span>
+        ) : null}
+
+        <button
+          type="button"
+          onClick={() => onToggleFavorite?.(productId)}
+          aria-label={isFavorited ? "Hapus dari wishlist" : "Tambah ke wishlist"}
+          className="absolute right-2 top-2 rounded-full bg-black/40 p-2 backdrop-blur-glass transition-colors hover:bg-black/60"
+        >
+          <Heart
+            className={`h-4 w-4 ${isFavorited ? "fill-accent-gold text-accent-gold" : "text-white"}`}
+          />
+        </button>
+
+        <Link
+          href={`/produk/${slug}`}
+          className="absolute inset-x-2 bottom-2 flex translate-y-2 items-center justify-center gap-1 rounded-lg bg-black/60 py-2 text-xs text-white opacity-0 backdrop-blur-glass transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
+        >
+          <Eye className="h-3.5 w-3.5" /> Lihat Detail
+        </Link>
+      </div>
+
+      <div className="flex flex-1 flex-col gap-1 p-3">
+        <span className="text-[11px] uppercase tracking-wide text-accent-blue">{gameName}</span>
+        <h3 className="line-clamp-2 text-sm font-medium text-white">{name}</h3>
+
+        <div className="mt-1 flex items-baseline gap-2">
+          <span className="text-base font-semibold text-white">{formatIdr(priceIdr)}</span>
+          {originalPriceIdr && originalPriceIdr > priceIdr ? (
+            <span className="text-xs text-gray-500 line-through">{formatIdr(originalPriceIdr)}</span>
+          ) : null}
+        </div>
+
+        <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400">
+          <span className={inStock ? "text-emerald-400" : "text-red-400"}>
+            {inStock ? "READY" : "HABIS"}
+          </span>
+          <span>{soldCount} terjual{rating ? ` · ★ ${rating.toFixed(1)}` : ""}</span>
+        </div>
+
+        <Link
+          href={`/produk/${slug}`}
+          className={`mt-2 rounded-lg py-2 text-center text-xs font-semibold transition-colors ${
+            inStock
+              ? "bg-gradient-brand text-white hover:opacity-90"
+              : "cursor-not-allowed bg-gray-800 text-gray-500"
+          }`}
+        >
+          {inStock ? "Beli Sekarang" : "Stok Habis"}
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+===== PRODUCT DETAIL =====
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import type { Metadata } from "next";
+import { db } from "@/lib/db";
+import { formatIdr } from "@/lib/money";
+import { AddToCartButton } from "@/components/product/AddToCartButton";
+import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
+
+async function getProduct(slug: string) {
+  const product = await db.product.findUnique({
+    where: { slug, status: true, deletedAt: null },
+    include: {
+      images: { orderBy: { position: "asc" } },
+      game: true,
+      category: true,
+      reviews: { where: { isApproved: true }, include: { user: { select: { name: true } } }, take: 20 },
+    },
+  });
+  if (!product) return null;
+
+  const availableStock =
+    product.type === "GAME_ACCOUNT"
+      ? await db.gameAccount.count({ where: { productId: product.id, status: "AVAILABLE" } })
+      : product.stockQty;
+
+  return { ...product, availableStock };
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const product = await getProduct(slug);
+  if (!product) return {};
+  return {
+    title: product.name,
+    description: product.description ?? undefined,
+    openGraph: { title: product.name, images: product.images[0] ? [product.images[0].url] : [] },
+  };
+}
+
+export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const product = await getProduct(slug);
+  if (!product) notFound();
+
+  const specs = (product.specifications as Record<string, string> | null) ?? {};
+  const avgRating =
+    product.reviews.length > 0
+      ? product.reviews.reduce((sum: number, r: any) => sum + r.rating, 0) / product.reviews.length
+      : null;
+
+  return (
+    <div className="mx-auto max-w-7xl px-4 py-8">
+      <ProductJsonLd
+        name={product.name}
+        description={product.description}
+        imageUrl={product.images[0]?.url}
+        priceIdr={product.priceIdr}
+        inStock={product.availableStock > 0}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "/" },
+          { name: product.game.name, url: `/produk?game=${product.game.slug}` },
+          { name: product.name, url: `/produk/${product.slug}` },
+        ]}
+      />
+      <div className="grid gap-8 md:grid-cols-2">
+        <div>
+          <div className="relative aspect-square overflow-hidden rounded-xl2 border border-border bg-background-secondary">
+            {product.images[0] ? (
+              <Image src={product.images[0].url} alt={product.name} fill className="object-cover" />
+            ) : null}
+          </div>
+          {product.images.length > 1 && (
+            <div className="mt-3 flex gap-2 overflow-x-auto scrollbar-none">
+              {product.images.map((img: any) => (
+                <div key={img.id} className="relative h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-border">
+                  <Image src={img.url} alt={product.name} fill className="object-cover" />
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <div>
+          <span className="text-xs uppercase tracking-wide text-accent-blue">{product.game.name}</span>
+          <h1 className="mt-1 text-xl font-bold md:text-2xl">{product.name}</h1>
+
+          {avgRating && (
+            <p className="mt-1 text-sm text-accent-gold">★ {avgRating.toFixed(1)} · {product.reviews.length} ulasan</p>
+          )}
+
+          <div className="mt-4 flex items-baseline gap-3">
+            <span className="text-2xl font-bold">{formatIdr(product.priceIdr)}</span>
+            {product.originalPriceIdr && product.originalPriceIdr > product.priceIdr && (
+              <span className="text-sm text-gray-500 line-through">{formatIdr(product.originalPriceIdr)}</span>
+            )}
+          </div>
+
+          <p className={`mt-2 text-sm font-medium ${product.availableStock > 0 ? "text-emerald-400" : "text-red-400"}`}>
+            {product.availableStock > 0 ? `Stok: ${product.availableStock}` : "Stok Habis"}
+          </p>
+
+          {Object.keys(specs).length > 0 && (
+            <div className="mt-6 rounded-xl2 border border-border bg-background-secondary/60 p-4">
+              <h3 className="mb-2 text-sm font-semibold">Spesifikasi</h3>
+              <dl className="grid grid-cols-2 gap-y-1.5 text-sm">
+                {Object.entries(specs).map(([key, value]) => (
+                  <div key={key} className="contents">
+                    <dt className="text-gray-400">{key}</dt>
+                    <dd className="text-white">{String(value)}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+
+          {product.description && (
+            <div className="mt-6">
+              <h3 className="mb-2 text-sm font-semibold">Deskripsi</h3>
+              <p className="whitespace-pre-line text-sm text-gray-300">{product.description}</p>
+            </div>
+          )}
+
+          {product.warranty && (
+            <p className="mt-4 text-xs text-gray-400">Garansi: {product.warranty}</p>
+          )}
+
+          <AddToCartButton
+            product={{
+              productId: product.id,
+              slug: product.slug,
+          
+quantity: 1,    name: product.name,
+              imageUrl: product.images[0]?.url ?? "/placeholder-product.jpg",
+              priceIdr: product.priceIdr,
+              isUniqueAccount: product.type === "GAME_ACCOUNT",
+              maxStock: product.availableStock,
+            }}
+            disabled={product.availableStock <= 0}
+          />
+        </div>
+      </div>
+
+      {product.reviews.length > 0 && (
+        <section className="mt-12">
+          <h2 className="mb-4 text-lg font-semibold">Ulasan Pembeli</h2>
+          <div className="space-y-3">
+            {product.reviews.map((review: any) => (
+              <div key={review.id} className="rounded-xl2 border border-border bg-background-secondary/60 p-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-medium">{review.user.name ?? "Pengguna"}</span>
+                  <span className="text-xs text-accent-gold">★ {review.rating}</span>
+                </div>
+                {review.comment && <p className="mt-1 text-sm text-gray-300">{review.comment}</p>}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}

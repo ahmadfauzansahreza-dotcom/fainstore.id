@@ -1,0 +1,32 @@
+{
+  "bp-card": {
+    "classification": "SPECIAL",
+    "parent": "free-fire",
+    "reason": "BP Card is a Free Fire membership special item"
+  },
+  "dgh": {
+    "classification": "VARIANT",
+    "parent": null,
+    "reason": "DGH provider variant; products span multiple product types"
+  },
+  "dgr": {
+    "classification": "VARIANT",
+    "parent": null,
+    "reason": "DGR provider variant; products span multiple product types"
+  },
+  "unipin": {
+    "classification": "VARIANT",
+    "parent": null,
+    "reason": "Unipin provider variant"
+  },
+  "weekly-pass-kcid": {
+    "classification": "SPECIAL_VARIANT",
+    "parent": "mobile-legend",
+    "reason": "Mobile Legends Weekly Diamond Pass KCID"
+  },
+  "weekly-pass-unipin-br": {
+    "classification": "SPECIAL_VARIANT",
+    "parent": "mobile-legend",
+    "reason": "Mobile Legends Weekly Diamond Pass Unipin BR"
+  }
+}

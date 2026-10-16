@@ -1,0 +1,4025 @@
+[
+  {
+    "operator_id": 1,
+    "total_products": 200,
+    "detected_games": [
+      "FREE_FIRE",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "FF5",
+        "nama": "5 Diamond Free Fire",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "FF10",
+        "nama": "10 Diamond Free Fire",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "FF15",
+        "nama": "15 Diamond Free Fire",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "FF20",
+        "nama": "20 Diamond Free Fire",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "FF25",
+        "nama": "25 Diamond Free Fire",
+        "game": "FREE_FIRE"
+      }
+    ]
+  },
+  {
+    "operator_id": 2,
+    "total_products": 41,
+    "detected_games": [
+      "MOBILE_LEGENDS",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "ML86",
+        "nama": "86 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ML172",
+        "nama": "172 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ML257",
+        "nama": "257 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ML344",
+        "nama": "344 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ML429",
+        "nama": "429 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 3,
+    "total_products": 19,
+    "detected_games": [
+      "CALL_OF_DUTY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "CODM53",
+        "nama": "53 CP Call Of Duty Mobile",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM112",
+        "nama": "112 CP Call Of Duty Mobile",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM165",
+        "nama": "165 CP Call Of Duty Mobile",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM278",
+        "nama": "278 CP Call Of Duty Mobile",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM331",
+        "nama": "331 CP Call Of Duty Mobile",
+        "game": "CALL_OF_DUTY"
+      }
+    ]
+  },
+  {
+    "operator_id": 6,
+    "total_products": 9,
+    "detected_games": [
+      "MOBILE_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "ZIDMBL17",
+        "nama": "17 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ZIDMBL34",
+        "nama": "34 Diamond Mobile Legend",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ZIDMBL50",
+        "nama": "50 Diamond Mobile Legend RZID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ZIDMBL66",
+        "nama": "66 Diamond Mobile Legend RZID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "ZIDMBL74",
+        "nama": "74 Diamond Mobile Legend RZID",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 7,
+    "total_products": 1,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "HGDU200X2",
+        "nama": "200M + 200M Higgs Domino MD",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 8,
+    "total_products": 25,
+    "detected_games": [
+      "FREE_FIRE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGF50",
+        "nama": "Free Fire  50 Diamond DG",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGF70X2",
+        "nama": "Free Fire 140 Diamond DG",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGF150",
+        "nama": "Free Fire 150 Diamond DG",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGF200",
+        "nama": "Free Fire 200 Diamond DG",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGF250",
+        "nama": "Free Fire 250 Diamond DG",
+        "game": "FREE_FIRE"
+      }
+    ]
+  },
+  {
+    "operator_id": 9,
+    "total_products": 21,
+    "detected_games": [
+      "MOBILE_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMBL5",
+        "nama": "5 Diamond Mobile Legend Unipin",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMBL12",
+        "nama": "12 Diamond Mobile Legend Unipin",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMBL19",
+        "nama": "19 Diamond Mobile Legend Unipin",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMBL28",
+        "nama": "28 Diamond Mobile Legend Unipin",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMBL36",
+        "nama": "36 Diamond Mobile Legend Unipin",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 11,
+    "total_products": 11,
+    "detected_games": [
+      "FREE_FIRE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPF5",
+        "nama": "5 Diamond Free Fire Unipin",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "UPF12",
+        "nama": "12 Diamond Free Fire Unipin",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "UPF50",
+        "nama": "50 Diamond Free Fire Unipin",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "UPF70",
+        "nama": "70 Diamond Free Fire Unipin",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "UPF140",
+        "nama": "140 Diamond Free Fire Unipin",
+        "game": "FREE_FIRE"
+      }
+    ]
+  },
+  {
+    "operator_id": 12,
+    "total_products": 6,
+    "detected_games": [
+      "LORDS_MOBILE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPLM67",
+        "nama": "67 DIamond Lords Mobile Unipin",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "UPLM134",
+        "nama": "134 Diamond Lords Mobile Unipin",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "UPLM335",
+        "nama": "335 Diamond Lords Mobile Unipin",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "UPLM670",
+        "nama": "670 Diamond Lords Mobile Unipin",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "UPLM2011",
+        "nama": "2011 Diamond Lords Mobile Unipin",
+        "game": "LORDS_MOBILE"
+      }
+    ]
+  },
+  {
+    "operator_id": 13,
+    "total_products": 9,
+    "detected_games": [
+      "CALL_OF_DUTY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPCOM5",
+        "nama": "26 + 6 CP Call Of Duty Mobile UP",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "UPCOM10",
+        "nama": "53 + 9 CP Call Of Duty Mobile UP",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "UPCOM20",
+        "nama": "106 + 21 CP Call Of Duty Mobile UP",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "UPCOM50",
+        "nama": "264 + 56 CP Call Of Duty Mobile UP",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "UPCOM100",
+        "nama": "528 + 116 CP Call Of Duty Mobile UP",
+        "game": "CALL_OF_DUTY"
+      }
+    ]
+  },
+  {
+    "operator_id": 14,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPAO40",
+        "nama": "40 AOV Vouchers",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPAO90",
+        "nama": "90 AOV Vouchers",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPAO230",
+        "nama": "230 AOV Vouchers",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPAO470",
+        "nama": "470 AOV Vouchers",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPAO950",
+        "nama": "950 AOV Vouchers",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 15,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPPB10",
+        "nama": "1200 PB Cash Unipin",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPPB20",
+        "nama": "2400 PB Cash Unipin",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPPB50",
+        "nama": "6000 PB Cash Unipin",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPPB100",
+        "nama": "12000 PB Cash Unipin",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPPB200",
+        "nama": "24000 PB Cash Unipin",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 16,
+    "total_products": 57,
+    "detected_games": [
+      "MOBILE_LEGENDS",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPMBLTP",
+        "nama": "Twilight Pass Mobile Legend Global",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBLSM",
+        "nama": "Starlight Member Mobile Legend Global",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBLSP",
+        "nama": "Starlight Member Plus Mobile Legend Global",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBL14",
+        "nama": "14 Diamond Mobile Legend Global",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBL28",
+        "nama": "28 Diamond Mobile Legend Global GP",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 17,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPLOT90",
+        "nama": "90 Crystals Light Of Thei GP",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLOT180",
+        "nama": "180 Crystals Light Of Thei GP",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLOT270",
+        "nama": "270 Crystals Light Of Thei GP",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLOT450",
+        "nama": "450 Crystals Light Of Thei GP",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLOT900",
+        "nama": "900 Crystals Light Of Thei GP",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 18,
+    "total_products": 10,
+    "detected_games": [
+      "DRAGON_RAJA"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPDR76",
+        "nama": "76 Coupons Dragon Raja GP",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "GPDR152",
+        "nama": "152 Coupons Dragon Raja GP",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "GPDR228",
+        "nama": "228 Coupons Dragon Raja GP",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "GPDR456",
+        "nama": "456 Coupons Dragon Raja GP",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "GPDR820",
+        "nama": "820 Coupons Dragon Raja GP",
+        "game": "DRAGON_RAJA"
+      }
+    ]
+  },
+  {
+    "operator_id": 19,
+    "total_products": 8,
+    "detected_games": [
+      "GENSHIN_IMPACT"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPGI60",
+        "nama": "60 Genesis Crystals Genshin Impact GP",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "GPGI120",
+        "nama": "120 Genesis Crystals Genshin Impact GP",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "GPGI330",
+        "nama": "300+30 Genesis Crystals Genshin Impact GP",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "GPGI1090",
+        "nama": "980+110 Genesis Crystals Genshin Impact GP",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "GPGI2240",
+        "nama": "1980+260 Genesis Crystals Genshin Impact GP",
+        "game": "GENSHIN_IMPACT"
+      }
+    ]
+  },
+  {
+    "operator_id": 21,
+    "total_products": 23,
+    "detected_games": [
+      "MOBILE_LEGENDS",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UBRMBL86",
+        "nama": "86 Diamond Mobile Legend Unipin BR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UBRMBL172",
+        "nama": "172 Diamond Mobile Legend Unipin BR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UBRMBL257",
+        "nama": "257 Diamond Mobile Legend Unipin BR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UBRMBL706",
+        "nama": "706 Diamond Mobile Legend Unipin BR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UBRMBL2195",
+        "nama": "2195 Diamond Mobile Legend Unipin BR",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 22,
+    "total_products": 16,
+    "detected_games": [
+      "MOBILE_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYMBL14",
+        "nama": "14 Diamond Mobile Legend Unipin MY",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMYMBL42",
+        "nama": "42 Diamond Mobile Legend Unipin MY",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMYMBL70",
+        "nama": "70 Diamond Mobile Legend Unipin MY",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMYMBL140",
+        "nama": "140 Diamond Mobile Legend Unipin MY",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPMYMBL284",
+        "nama": "284 Diamond Mobile Legend Unipin MY",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 23,
+    "total_products": 6,
+    "detected_games": [
+      "GENSHIN_IMPACT",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYGI60",
+        "nama": "60 Genesis Crystals Unipin MY",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPMYGI330",
+        "nama": "330 Genesis Crystals Unipin MY",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPMYGI1090",
+        "nama": "1090 Genesis Crystals Unipin MY",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPMYGI2240",
+        "nama": "2240 Genesis Crystals Unipin MY",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPMYGI3880",
+        "nama": "3880 Genesis Crystals Unipin MY",
+        "game": "GENSHIN_IMPACT"
+      }
+    ]
+  },
+  {
+    "operator_id": 24,
+    "total_products": 5,
+    "detected_games": [
+      "DRAGON_RAJA"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYDR76",
+        "nama": "76 Coupuns Dragon Raja Unipin MY",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPMYDR56",
+        "nama": " 456 Coupuns Dragon Raja Unipin MY",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPMYDR820",
+        "nama": " 820 Coupuns Dragon Raja Unipin MY",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPMYDR1699",
+        "nama": " 1699 Coupuns Dragon Raja Unipin MY",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPMYDR5161",
+        "nama": "5161 Coupuns Dragon Raja Unipin MY",
+        "game": "DRAGON_RAJA"
+      }
+    ]
+  },
+  {
+    "operator_id": 25,
+    "total_products": 8,
+    "detected_games": [
+      "SAUSAGE_MAN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPSM60",
+        "nama": "60 Candies Sausage Man GP",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "GPSM180",
+        "nama": "180 Candies Sausage Man GP",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "GPSM316",
+        "nama": "316 Candies Sausage Man GP",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "GPSM718",
+        "nama": "718 Candies Sausage Man GP",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "GPSM1368",
+        "nama": "1368 Candies Sausage Man GP",
+        "game": "SAUSAGE_MAN"
+      }
+    ]
+  },
+  {
+    "operator_id": 26,
+    "total_products": 6,
+    "detected_games": [
+      "OMEGA_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPOL129",
+        "nama": "129 Gold Omega Legends GP",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "GPOL258",
+        "nama": "258 Gold Omega Legends GP",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "GPOL828",
+        "nama": "828 Gold Omega Legends GP",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "GPOL1429",
+        "nama": "1429 Gold Omega Legends GP",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "GPOL2927",
+        "nama": "2927 Gold Omega Legends GP",
+        "game": "OMEGA_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 27,
+    "total_products": 7,
+    "detected_games": [
+      "TOM_AND_JERRY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPTJ60",
+        "nama": "60 Diamond Tom and Jerry GP",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "GPTJ180",
+        "nama": "180 Diamond Tom and Jerry GP",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "GPTJ120",
+        "nama": "120 Diamond Tom and Jerry GP",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "GPTJ300",
+        "nama": "300 Diamond Tom and Jerry GP",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "GPTJ600",
+        "nama": "600 Diamond Tom and Jerry GP",
+        "game": "TOM_AND_JERRY"
+      }
+    ]
+  },
+  {
+    "operator_id": 29,
+    "total_products": 1,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DEVSOC86",
+        "nama": "86 Diamond",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 30,
+    "total_products": 13,
+    "detected_games": [
+      "TANIUM_TOWER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPTOF60",
+        "nama": "60 Tanium Tower Of Fantasy GP Global",
+        "game": "TANIUM_TOWER"
+      },
+      {
+        "kode_produk": "GPTOF120",
+        "nama": "120 Tanium Tower Of Fantasy GP Global",
+        "game": "TANIUM_TOWER"
+      },
+      {
+        "kode_produk": "GPRSTOF",
+        "nama": "Rookie Supplies Tower of Fantasy Global Gamepoint",
+        "game": "TANIUM_TOWER"
+      },
+      {
+        "kode_produk": "GPUPTOF",
+        "nama": "Upgrade Pass Tower of Fantasy Global Gamepoint",
+        "game": "TANIUM_TOWER"
+      },
+      {
+        "kode_produk": "GPAPTOF",
+        "nama": "Adventure Pack Tower of Fantasy Global Gamepoint",
+        "game": "TANIUM_TOWER"
+      }
+    ]
+  },
+  {
+    "operator_id": 31,
+    "total_products": 1,
+    "detected_games": [
+      "TANIUM_TOWER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPTOFSEA60",
+        "nama": "60 Tanium Tower Of Fantasy GP SEA",
+        "game": "TANIUM_TOWER"
+      }
+    ]
+  },
+  {
+    "operator_id": 32,
+    "total_products": 47,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "INQ_HAGO_DM",
+        "nama": "Hago Diamond Inquiry",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "INQ_HAGO_BANGSAWAN",
+        "nama": "Hago Bangsawan Inquiry",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "NHAGO1K",
+        "nama": "Hago 1000 DIamond",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "NHAGO1200",
+        "nama": "Hago 1200 DIamond",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "NHAGO2K",
+        "nama": "Hago 2000 DIamond",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 33,
+    "total_products": 12,
+    "detected_games": [
+      "LORDS_MOBILE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "LMGP40",
+        "nama": "40 Diamonds Lords Mobile GP",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "LMGP100",
+        "nama": "100 Diamonds Lords Mobile GP",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "LMGP201",
+        "nama": "201 Diamonds Lords Mobile GP",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "LMGP200",
+        "nama": "200 Diamonds Lords Mobile GP",
+        "game": "LORDS_MOBILE"
+      },
+      {
+        "kode_produk": "LMGP602",
+        "nama": "602 Diamonds Lords Mobile GP",
+        "game": "LORDS_MOBILE"
+      }
+    ]
+  },
+  {
+    "operator_id": 34,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "SSGP100",
+        "nama": "100 Golden Star Super Sus",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "SSGP310",
+        "nama": "310 Golden Star Super Sus",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "SSGP520",
+        "nama": "520 Golden Star Super Sus",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "SSGP1060",
+        "nama": "1060 Golden Star Super Sus",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "SSGP2180",
+        "nama": "2180 Golden Star Super Sus",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 35,
+    "total_products": 19,
+    "detected_games": [
+      "MOBILE_LEGENDS",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGRMBL3",
+        "nama": "3 Diamond Mobile Legend DGR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGRMBL12",
+        "nama": "12 (11+1) Diamond Mobile Legend DGR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGRMBL28",
+        "nama": "28 (25+3) Diamond Mobile Legend DGR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGRMBL59",
+        "nama": "59 (53+6) Diamond Mobile Legend DGR",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGRMBL85",
+        "nama": "85 (77+8) Diamond Mobile Legend DGR",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 36,
+    "total_products": 8,
+    "detected_games": [
+      "FREE_FIRE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGRF5",
+        "nama": "5 Diamond Free Fire DGR",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGRF50",
+        "nama": "50 Diamond Free Fire DGR",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGRF70",
+        "nama": "70 Diamond Free Fire DGR",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGRF140",
+        "nama": "140 Diamond Free Fire DGR",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGRF355",
+        "nama": "355 Diamond Free Fire DGR",
+        "game": "FREE_FIRE"
+      }
+    ]
+  },
+  {
+    "operator_id": 37,
+    "total_products": 1,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "INQ_TOKOVOUCHER",
+        "nama": "INQUIRY TOKOVOUCHER",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 38,
+    "total_products": 12,
+    "detected_games": [
+      "MOBILE_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHMBL11",
+        "nama": "10 Diamonds (9 + 1) Mobile Legend Unipin PH",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHMBL22",
+        "nama": "19 Diamonds (17+ 2) Mobile Legend Unipin PH",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHMBL56",
+        "nama": "47 Diamonds (42+ 5) Mobile Legend Unipin PH",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHMBL112",
+        "nama": "93 Diamonds (84 + 9) Mobile Legend Unipin PH",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHMBL223",
+        "nama": "184 Diamonds (167 + 17) Mobile Legend Unipin PH",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 39,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHLM40",
+        "nama": "Lord Mobile 40 Diamond Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLM100",
+        "nama": "Lord Mobile 100 Diamond Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLM201",
+        "nama": "Lord Mobile 201 Diamond Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLM602",
+        "nama": "Lord Mobile 602 Diamond Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLM1004",
+        "nama": "Lord Mobile 1004 Diamond Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 40,
+    "total_products": 11,
+    "detected_games": [
+      "RAGNAROK"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHROO40",
+        "nama": "Ragnarok Nyan Berry * 40 Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROO125",
+        "nama": "Ragnarok Nyan Berry * 125 Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROO210",
+        "nama": "Ragnarok Nyan Berry * 210 Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROO430",
+        "nama": "Ragnarok Nyan Berry * 430 Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROO900",
+        "nama": "Ragnarok Nyan Berry * 900 Unipin PH",
+        "game": "RAGNAROK"
+      }
+    ]
+  },
+  {
+    "operator_id": 41,
+    "total_products": 6,
+    "detected_games": [
+      "ACE_RACER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYACE65",
+        "nama": "Ace Racer 60 + 5 Tokens Unipin MY",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPMYACE270",
+        "nama": "Ace Racer 250 + 20 Tokens Unipin MY",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPMYACE740",
+        "nama": "Ace Racer 680 + 60 Tokens Unipin MY",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPMYACE1300",
+        "nama": "Ace Racer 1180 + 120 Tokens Unipin MY",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPMYACE3180",
+        "nama": "Ace Racer 2880 + 300 Tokens Unipin MY",
+        "game": "ACE_RACER"
+      }
+    ]
+  },
+  {
+    "operator_id": 42,
+    "total_products": 11,
+    "detected_games": [
+      "RAGNAROK"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYROO40",
+        "nama": "Ragnarok Origin Unipin MY Nyan Berry * 40",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPMYROO125",
+        "nama": "Ragnarok Origin Unipin MY Nyan Berry * 125",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPMYROO210",
+        "nama": "Ragnarok Origin Unipin MY Nyan Berry * 210",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPMYROO430",
+        "nama": "Ragnarok Origin Unipin MY Nyan Berry * 430",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPMYROO900",
+        "nama": "Ragnarok Origin Unipin MY Nyan Berry * 900",
+        "game": "RAGNAROK"
+      }
+    ]
+  },
+  {
+    "operator_id": 43,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYLAF65",
+        "nama": "Lifeafter Unipin MY 65 Credits",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLAF330",
+        "nama": "Lifeafter Unipin MY 330 Credits",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLAF558",
+        "nama": "Lifeafter Unipin MY 558 Credits",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLAF1108",
+        "nama": "Lifeafter Unipin MY 1108 Credits",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLAF2268",
+        "nama": "Lifeafter Unipin MY 2268 Credits",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 44,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYEDO80",
+        "nama": "Eudemons Online Unipin MY 80 Eudemons Points",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYEDO165",
+        "nama": "Eudemons Online Unipin MY 165 Eudemons Points",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYEDO420",
+        "nama": "Eudemons Online Unipin MY 420 Eudemons Points",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYEDO680",
+        "nama": "Eudemons Online Unipin MY 680 Eudemons Points",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYEDO1380",
+        "nama": "Eudemons Online Unipin MY 1380 Eudemons Points",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 45,
+    "total_products": 5,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYLM200",
+        "nama": "Lord Mobile 200 Diamond Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLM625",
+        "nama": "Lord Mobile 625 Diamond Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLM1045",
+        "nama": "Lord Mobile 1045 Diamond Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLM2090",
+        "nama": "Lord Mobile 2090 Diamond Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLM6265",
+        "nama": "Lord Mobile 6265 Diamond Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 46,
+    "total_products": 6,
+    "detected_games": [
+      "LAPLACE_M"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYLPM60",
+        "nama": "Laplace M 60 Spirals Unipin MY",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPMYLPM300",
+        "nama": "Laplace M 300 Spirals Unipin MY",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPMYLPM980",
+        "nama": "Laplace M 980 Spirals Unipin MY",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPMYLPM1980",
+        "nama": "Laplace M 1980 Spirals Unipin MY",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPMYLPM3280",
+        "nama": "Laplace M 3280 Spirals Unipin MY",
+        "game": "LAPLACE_M"
+      }
+    ]
+  },
+  {
+    "operator_id": 47,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYLT300",
+        "nama": "Lita 300 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLT600",
+        "nama": "Lita 600 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLT1000",
+        "nama": "Lita 1000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLT2000",
+        "nama": "Lita 2000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLT5000",
+        "nama": "Lita 5000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 48,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHLD30000",
+        "nama": "Ludo Club 30.000 Coins Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLD150000",
+        "nama": "Ludo Club 150.000 Coins Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLD1000000",
+        "nama": "Ludo Club 1,000,000 Coins Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLD2500000",
+        "nama": "Ludo Club 2,500,000 Coins Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLD10000000",
+        "nama": "Ludo Club 10,000,000 Coins Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 49,
+    "total_products": 7,
+    "detected_games": [
+      "MU_ORIGIN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHMOI35",
+        "nama": "MU Origin 2 Unipin PH 35 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMOI70",
+        "nama": "MU Origin 2 Unipin PH 70 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMOI109",
+        "nama": "MU Origin 2 Unipin PH 109 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMOI195",
+        "nama": "MU Origin 2 Unipin PH 195 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMOI325",
+        "nama": "MU Origin 2 Unipin PH 325 Badges ",
+        "game": "MU_ORIGIN"
+      }
+    ]
+  },
+  {
+    "operator_id": 50,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYLD30000",
+        "nama": "Ludo Club 30.000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLD150000",
+        "nama": "Ludo Club 150.000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLD1000000",
+        "nama": "Ludo Club 1,000,000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLD2500000",
+        "nama": "Ludo Club 2,500,000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYLD10000000",
+        "nama": "Ludo Club 10,000,000 Coins Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 51,
+    "total_products": 8,
+    "detected_games": [
+      "MU_ORIGIN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYMOI130",
+        "nama": "MU Origin 2 Unipin MY 130 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMOI362",
+        "nama": "MU Origin 2 Unipin MY 362 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMOI568",
+        "nama": "MU Origin 2 Unipin MY 568 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMOI955",
+        "nama": "MU Origin 2 Unipin MY 955 Badges ",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMOI2065",
+        "nama": "MU Origin 2 Unipin MY 2065 Badges ",
+        "game": "MU_ORIGIN"
+      }
+    ]
+  },
+  {
+    "operator_id": 52,
+    "total_products": 9,
+    "detected_games": [
+      "MU_ORIGIN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYMUO70",
+        "nama": "70 Divine DIamonds MU Origin 3 Unipin MY",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMUO350",
+        "nama": "350 Divine DIamonds MU Origin 3 Unipin MY",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMUO1050",
+        "nama": "1050 Divine DIamonds MU Origin 3 Unipin MY",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMUO2100",
+        "nama": "2100 Divine DIamonds MU Origin 3 Unipin MY",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPMYMUO3500",
+        "nama": "3500 Divine DIamonds MU Origin 3 Unipin MY",
+        "game": "MU_ORIGIN"
+      }
+    ]
+  },
+  {
+    "operator_id": 53,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYMSW55",
+        "nama": "55 Star Credits Marvel Super war Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMSW275",
+        "nama": "275 Star Credits Marvel Super war Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMSW565",
+        "nama": "565 Star Credits Marvel Super war Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMSW1155",
+        "nama": "1155 Star Credits Marvel Super war Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMSW1765",
+        "nama": "1765 Star Credits Marvel Super war Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 54,
+    "total_products": 5,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYMGT100",
+        "nama": "100 Coins Mangatoon Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMGT600",
+        "nama": "600 Coins Mangatoon Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMGT1000",
+        "nama": "1000 Coins Mangatoon Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMGT6000",
+        "nama": "6000 Coins Mangatoon Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYMGT10000",
+        "nama": "10000 Coins Mangatoon Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 55,
+    "total_products": 5,
+    "detected_games": [
+      "MANGO_LIVE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYMGL25000",
+        "nama": "25000 Diamond Mango Live Unipin MY",
+        "game": "MANGO_LIVE"
+      },
+      {
+        "kode_produk": "UPMYMGL50000",
+        "nama": "50000 Diamond Mango Live Unipin MY",
+        "game": "MANGO_LIVE"
+      },
+      {
+        "kode_produk": "UPMYMGL125000",
+        "nama": "125000 Diamond Mango Live Unipin MY",
+        "game": "MANGO_LIVE"
+      },
+      {
+        "kode_produk": "UPMYMGL250000",
+        "nama": "250000 Diamond Mango Live Unipin MY",
+        "game": "MANGO_LIVE"
+      },
+      {
+        "kode_produk": "UPMYMGL500000",
+        "nama": "500000 Diamond Mango Live Unipin MY",
+        "game": "MANGO_LIVE"
+      }
+    ]
+  },
+  {
+    "operator_id": 56,
+    "total_products": 6,
+    "detected_games": [
+      "NARUTO"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYNSX60",
+        "nama": "60 Banknotes Naruto:SlugfestX Unipin MY",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPMYNSX300",
+        "nama": "300 Banknotes Naruto:SlugfestX Unipin MY",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPMYNSX980",
+        "nama": "980 Banknotes Naruto:SlugfestX Unipin MY",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPMYNSX1980",
+        "nama": "1980 Banknotes Naruto:SlugfestX Unipin MY",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPMYNSX3280",
+        "nama": "3280 Banknotes Naruto:SlugfestX Unipin MY",
+        "game": "NARUTO"
+      }
+    ]
+  },
+  {
+    "operator_id": 57,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYSS100",
+        "nama": "100 GoldStar Super Sus Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYSS310",
+        "nama": "310 GoldStar Super Sus Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYSS520",
+        "nama": "520 GoldStar Super Sus Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYSS1060",
+        "nama": "1060 GoldStar Super Sus Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYSS2180",
+        "nama": "2180 GoldStar Super Sus Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 58,
+    "total_products": 8,
+    "detected_games": [
+      "TOM_AND_JERRY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYTJ60",
+        "nama": "Diamond 60 Tom and Jerry Unipin MY",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPMYTJ186",
+        "nama": "Diamond 186 (180 +6) Tom and Jerry Unipin MY",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPMYTJ320",
+        "nama": "Diamond 320 (300+20) Tom and Jerry Unipin MY",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPMYTJ645",
+        "nama": "Diamond 645 (600+45) Tom and Jerry Unipin MY",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPMYTJ1300",
+        "nama": "Diamond 1300 (1200+100) Tom and Jerry Unipin MY",
+        "game": "TOM_AND_JERRY"
+      }
+    ]
+  },
+  {
+    "operator_id": 59,
+    "total_products": 8,
+    "detected_games": [
+      "ONE_PUNCH_MAN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYOPM37",
+        "nama": "37 Coupon One Punch Man : The Strongest Unipin MY",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPMYOPM362",
+        "nama": "362 Coupon One Punch Man : The Strongest Unipin MY",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPMYOPM904",
+        "nama": "904 Coupon One Punch Man : The Strongest Unipin MY",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPMYOPM2530",
+        "nama": "2530 Coupon One Punch Man : The Strongest Unipin MY",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPMYOPM7589",
+        "nama": "7589 Coupon One Punch Man : The Strongest Unipin MY",
+        "game": "ONE_PUNCH_MAN"
+      }
+    ]
+  },
+  {
+    "operator_id": 60,
+    "total_products": 18,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYNVA60",
+        "nama": "60 Diamonds Never After Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYDSNVA",
+        "nama": "Daily Specials Never After Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYDFNVA",
+        "nama": "Daily Feedback Never After Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYPPNVA",
+        "nama": "Promotion Pass Never After Unipin MY",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPMYNVA366",
+        "nama": "366 (349+17) Diamonds Never After Unipin MY",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 61,
+    "total_products": 10,
+    "detected_games": [
+      "FOOTBALL_MASTER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYFBM18",
+        "nama": "18 FMP Football Master 2 Unipin MY",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "UPMYFBM95",
+        "nama": "95 FMP Football Master 2 Unipin MY",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "UPMYFBM191",
+        "nama": "191 FMP Football Master 2 Unipin MY",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "UPMYFBM383",
+        "nama": "383 FMP Football Master 2 Unipin MY",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "UPMYFBM972",
+        "nama": "972 FMP Football Master 2 Unipin MY",
+        "game": "FOOTBALL_MASTER"
+      }
+    ]
+  },
+  {
+    "operator_id": 62,
+    "total_products": 8,
+    "detected_games": [
+      "SAUSAGE_MAN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPMYSSM60",
+        "nama": "60 Candies Sausage Man Unipin MY",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPMYSSM180",
+        "nama": "180 Candies Sausage Man Unipin MY",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPMYSSM316",
+        "nama": "316 Candies Sausage Man Unipin MY",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPMYSSM718",
+        "nama": "718 Candies Sausage Man Unipin MY",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPMYSSM1368",
+        "nama": "1368 Candies Sausage Man Unipin MY",
+        "game": "SAUSAGE_MAN"
+      }
+    ]
+  },
+  {
+    "operator_id": 63,
+    "total_products": 7,
+    "detected_games": [
+      "GENSHIN_IMPACT",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHGI60",
+        "nama": "60 Genesis Crystals Unipin PH",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPHGI330",
+        "nama": "330 (300+30) Genesis Crystals Unipin PH",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPHGIBL",
+        "nama": "Blessing of the Welkin Moon Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHGI1090",
+        "nama": "1090 (980+110) Genesis Crystals Unipin PH",
+        "game": "GENSHIN_IMPACT"
+      },
+      {
+        "kode_produk": "UPHGI2240",
+        "nama": "2240 (1980+260) Genesis Crystals Unipin PH",
+        "game": "GENSHIN_IMPACT"
+      }
+    ]
+  },
+  {
+    "operator_id": 64,
+    "total_products": 6,
+    "detected_games": [
+      "ACE_RACER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHACE65",
+        "nama": "Ace Racer 60 + 5 Tokens Unipin PH",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPHACE270",
+        "nama": "Ace Racer 250 + 20 Tokens Unipin PH",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPHACE740",
+        "nama": "Ace Racer 680 + 60 Tokens Unipin PH",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPHACE1300",
+        "nama": "Ace Racer 1180 + 120 Tokens Unipin PH",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "UPHACE3180",
+        "nama": "Ace Racer 2880 + 300 Tokens Unipin PH",
+        "game": "ACE_RACER"
+      }
+    ]
+  },
+  {
+    "operator_id": 65,
+    "total_products": 9,
+    "detected_games": [
+      "BIGOLIVE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHBGL55",
+        "nama": "Bigo Live 55 Diamonds Unipin PH",
+        "game": "BIGOLIVE"
+      },
+      {
+        "kode_produk": "UPHBGL100",
+        "nama": "Bigo Live 100 Diamonds Unipin PH",
+        "game": "BIGOLIVE"
+      },
+      {
+        "kode_produk": "UPHBGL200",
+        "nama": "Bigo Live 200 Diamonds Unipin PH",
+        "game": "BIGOLIVE"
+      },
+      {
+        "kode_produk": "UPHBGL500",
+        "nama": "Bigo Live 500 Diamonds Unipin PH",
+        "game": "BIGOLIVE"
+      },
+      {
+        "kode_produk": "UPHBGL1000",
+        "nama": "Bigo Live 1000 Diamonds Unipin PH",
+        "game": "BIGOLIVE"
+      }
+    ]
+  },
+  {
+    "operator_id": 66,
+    "total_products": 7,
+    "detected_games": [
+      "DRAGON_RAJA"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHDR66",
+        "nama": "66 Coupons Dragon Raja Unipin PH",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPHDR264",
+        "nama": "264 Coupons Dragon Raja Unipin PH",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPHDR1098",
+        "nama": "1098 Coupons Dragon Raja Unipin PH",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPHDR2246",
+        "nama": "2246 Coupons Dragon Raja Unipin PH",
+        "game": "DRAGON_RAJA"
+      },
+      {
+        "kode_produk": "UPHDR3768",
+        "nama": "3768 Coupons Dragon Raja Unipin PH",
+        "game": "DRAGON_RAJA"
+      }
+    ]
+  },
+  {
+    "operator_id": 67,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHIL90",
+        "nama": "90 Diamonds Idle Legend Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHIL265",
+        "nama": "265 Diamonds Idle Legend Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHIL900",
+        "nama": "900 Diamonds Idle Legend Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHIL1350",
+        "nama": "1350 Diamonds Idle Legend Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHIL1840",
+        "nama": "1840 Diamonds Idle Legend Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 68,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHLAF65",
+        "nama": "65 Credits Lifeafter Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLAF330",
+        "nama": "330 Credits Lifeafter Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLAF558",
+        "nama": "558 Credits Lifeafter Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLAF1108",
+        "nama": "1108 Credits Lifeafter Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHLAF2268",
+        "nama": "2268 Credits Lifeafter Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 69,
+    "total_products": 6,
+    "detected_games": [
+      "LAPLACE_M"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHLPM60",
+        "nama": "Laplace M 60 Spirals Unipin PH",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPHLPM300",
+        "nama": "Laplace M 300 Spirals Unipin PH",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPHLPM980",
+        "nama": "Laplace M 980 Spirals Unipin PH",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPHLPM1980",
+        "nama": "Laplace M 1980 Spirals Unipin PH",
+        "game": "LAPLACE_M"
+      },
+      {
+        "kode_produk": "UPHLPM3280",
+        "nama": "Laplace M 3280 Spirals Unipin PH",
+        "game": "LAPLACE_M"
+      }
+    ]
+  },
+  {
+    "operator_id": 71,
+    "total_products": 9,
+    "detected_games": [
+      "MU_ORIGIN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHMUO70",
+        "nama": "70 Devine Diamonds MU Origin 3 Unipin PH",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMUO350",
+        "nama": "350 Devine Diamonds MU Origin 3 Unipin PH",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMUO1050",
+        "nama": "1050 Devine Diamonds MU Origin 3 Unipin PH",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMUO2100",
+        "nama": "2100 Devine Diamonds MU Origin 3 Unipin PH",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "UPHMUO3500",
+        "nama": "3500 Devine Diamonds MU Origin 3 Unipin PH",
+        "game": "MU_ORIGIN"
+      }
+    ]
+  },
+  {
+    "operator_id": 72,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHMSW55",
+        "nama": "55 Star Credits Marvel Super war Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMSW275",
+        "nama": "275 Star Credits Marvel Super war Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMSW565",
+        "nama": "565 Star Credits Marvel Super war Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMSW1155",
+        "nama": "1155 Star Credits Marvel Super war Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMSW1765",
+        "nama": "1765 Star Credits Marvel Super war Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 73,
+    "total_products": 5,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHMGT100",
+        "nama": "100 Coins Mangatoon Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMGT600",
+        "nama": "600 Coins Mangatoon Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMGT1000",
+        "nama": "1000 Coins Mangatoon Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMGT6000",
+        "nama": "6000 Coins Mangatoon Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMGT10000",
+        "nama": "10000 Coins Mangatoon Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 74,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHMPS60",
+        "nama": "60 Jades Mirage:Perfect Skyline Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMPS300",
+        "nama": "300 Jades Mirage:Perfect Skyline Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMPS680",
+        "nama": "680 Jades Mirage:Perfect Skyline Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMPS980",
+        "nama": "980 Jades Mirage:Perfect Skyline Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHMPS1280",
+        "nama": "1280 Jades Mirage:Perfect Skyline Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 75,
+    "total_products": 6,
+    "detected_games": [
+      "NARUTO"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHNSX60",
+        "nama": "60 Banknotes Naruto:SlugfestX Unipin PH",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPHNSX300",
+        "nama": "300 Banknotes Naruto:SlugfestX Unipin PH",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPHNSX980",
+        "nama": "980 Banknotes Naruto:SlugfestX Unipin PH",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPHNSX1980",
+        "nama": "1980 Banknotes Naruto:SlugfestX Unipin PH",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "UPHNSX3280",
+        "nama": "3280 Banknotes Naruto:SlugfestX Unipin PH",
+        "game": "NARUTO"
+      }
+    ]
+  },
+  {
+    "operator_id": 76,
+    "total_products": 18,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHNVA60",
+        "nama": "60 Diamonds Never After Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHDSNVA",
+        "nama": "Daily Specials Never After Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHFNVA",
+        "nama": "Daily Feedback Never After Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHPPNVA",
+        "nama": "Promotion Pass Never After Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHDSLNVA",
+        "nama": "Daily Selection Never After Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 77,
+    "total_products": 6,
+    "detected_games": [
+      "OMEGA_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHGOL40",
+        "nama": "40 Gold Omega Legends Unipin PH",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHGOL108",
+        "nama": "108 Gold Omega Legends Unipin PH",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHGOL215",
+        "nama": "215 Gold Omega Legends Unipin PH",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHGOL691",
+        "nama": "691 Gold Omega Legends Unipin PH",
+        "game": "OMEGA_LEGENDS"
+      },
+      {
+        "kode_produk": "UPHGOL1192",
+        "nama": "1192 Gold Omega Legends Unipin PH",
+        "game": "OMEGA_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 78,
+    "total_products": 6,
+    "detected_games": [
+      "ONE_PUNCH_MAN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHOPM5",
+        "nama": "5 Coupon One Punch Man : The Strongest Unipin PH",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPHOPM13",
+        "nama": "13 Coupon One Punch Man : The Strongest Unipin PH",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPHOPM23",
+        "nama": "23 Coupon One Punch Man : The Strongest Unipin PH",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPHOPM61",
+        "nama": "61 Coupon One Punch Man : The Strongest Unipin PH",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "UPHOPM91",
+        "nama": "91 Coupon One Punch Man : The Strongest Unipin PH",
+        "game": "ONE_PUNCH_MAN"
+      }
+    ]
+  },
+  {
+    "operator_id": 79,
+    "total_products": 8,
+    "detected_games": [
+      "POINT_BLANK"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHPB400",
+        "nama": "400 Pb Cash Point Blank Unipin PH",
+        "game": "POINT_BLANK"
+      },
+      {
+        "kode_produk": "UPHPB800",
+        "nama": "800 Pb Cash Point Blank Unipin PH",
+        "game": "POINT_BLANK"
+      },
+      {
+        "kode_produk": "UPHPB2000",
+        "nama": "2000 Pb Cash Point Blank Unipin PH",
+        "game": "POINT_BLANK"
+      },
+      {
+        "kode_produk": "UPHPB4000",
+        "nama": "4000 Pb Cash Point Blank Unipin PH",
+        "game": "POINT_BLANK"
+      },
+      {
+        "kode_produk": "UPHPB8000",
+        "nama": "8000 Pb Cash Point Blank Unipin PH",
+        "game": "POINT_BLANK"
+      }
+    ]
+  },
+  {
+    "operator_id": 80,
+    "total_products": 9,
+    "detected_games": [
+      "PROJECT_INTR0PY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHPE100",
+        "nama": "100 Star Chips Project Entropy Unipin PH",
+        "game": "PROJECT_INTR0PY"
+      },
+      {
+        "kode_produk": "UPHPE500",
+        "nama": "500 Star Chips Project Entropy Unipin PH",
+        "game": "PROJECT_INTR0PY"
+      },
+      {
+        "kode_produk": "UPHPE1000",
+        "nama": "1000 Star Chips Project Entropy Unipin PH",
+        "game": "PROJECT_INTR0PY"
+      },
+      {
+        "kode_produk": "UPHPE2099",
+        "nama": "2099 Star Chips Project Entropy Unipin PH",
+        "game": "PROJECT_INTR0PY"
+      },
+      {
+        "kode_produk": "UPHPE5399",
+        "nama": "5399 Star Chips Project Entropy Unipin PH",
+        "game": "PROJECT_INTR0PY"
+      }
+    ]
+  },
+  {
+    "operator_id": 81,
+    "total_products": 11,
+    "detected_games": [
+      "RAGNAROK"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHROM7",
+        "nama": "7 (6+1) Big Cat Coins Ragnarok M Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROM14",
+        "nama": "14 (12+2) Big Cat Coins Ragnarok M Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROM21",
+        "nama": "21 (18+3) Big Cat Coins Ragnarok M Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROM28",
+        "nama": "28 (24+4) Big Cat Coins Ragnarok M Unipin PH",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "UPHROM36",
+        "nama": "36 (30+6) Big Cat Coins Ragnarok M Unipin PH",
+        "game": "RAGNAROK"
+      }
+    ]
+  },
+  {
+    "operator_id": 82,
+    "total_products": 8,
+    "detected_games": [
+      "SAINT_SEIYA"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHSS60",
+        "nama": "60 Coupons Saint Seiya Unipin PH",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "UPHSS300",
+        "nama": "300 Coupons Saint Seiya Unipin PH",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "UPHSS600",
+        "nama": "600 Coupons Saint Seiya Unipin PH",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "UPHSS1200",
+        "nama": "1200 Coupons Saint Seiya Unipin PH",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "UPHSS1800",
+        "nama": "1800 Coupons Saint Seiya Unipin PH",
+        "game": "SAINT_SEIYA"
+      }
+    ]
+  },
+  {
+    "operator_id": 83,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHSFN60",
+        "nama": "60 Jade Starfall Fantasy Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSFN300",
+        "nama": "300 Jade Starfall Fantasy Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSFN680",
+        "nama": "680 Jade Starfall Fantasy Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSFN980",
+        "nama": "980 Jade Starfall Fantasy Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSFN1280",
+        "nama": "1280 Jade Starfall Fantasy Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 84,
+    "total_products": 8,
+    "detected_games": [
+      "SAUSAGE_MAN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHSSM60",
+        "nama": "60 Candies Sausage Man Unipin PH",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPHSSM180",
+        "nama": "180 Candies Sausage Man Unipin PH",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPHSSM316",
+        "nama": "316 Candies Sausage Man Unipin PH",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPHSSM718",
+        "nama": "718 Candies Sausage Man Unipin PH",
+        "game": "SAUSAGE_MAN"
+      },
+      {
+        "kode_produk": "UPHSSM1368",
+        "nama": "1368 Candies Sausage Man Unipin PH",
+        "game": "SAUSAGE_MAN"
+      }
+    ]
+  },
+  {
+    "operator_id": 85,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHSS100",
+        "nama": "100 Goldstar Super Sus Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSS310",
+        "nama": "310 Goldstar Super Sus Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSS520",
+        "nama": "520 Goldstar Super Sus Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSS1060",
+        "nama": "1060 Goldstar Super Sus Unipin PH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "UPHSS2180",
+        "nama": "2180 Goldstar Super Sus Unipin PH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 86,
+    "total_products": 8,
+    "detected_games": [
+      "TOM_AND_JERRY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "UPHTAJ60",
+        "nama": "Diamond 60 Tom and Jerry Unipin PH",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPHTAJ186",
+        "nama": "Diamond 186 (180+6) Tom and Jerry Unipin PH",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPHTAJ320",
+        "nama": "Diamond 320 (300+20) Tom and Jerry Unipin PH",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPHTAJ645",
+        "nama": "Diamond 645 (600+45) Tom and Jerry Unipin PH",
+        "game": "TOM_AND_JERRY"
+      },
+      {
+        "kode_produk": "UPHTAJ1300",
+        "nama": "Diamond 1300 (1200+100) Tom and Jerry Unipin PH",
+        "game": "TOM_AND_JERRY"
+      }
+    ]
+  },
+  {
+    "operator_id": 88,
+    "total_products": 6,
+    "detected_games": [
+      "ACE_RACER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPACE60",
+        "nama": "60 Tokens Ace Racer Gamepoint",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "GPACE250",
+        "nama": "250 Tokens Ace Racer Gamepoint",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "GPACE680",
+        "nama": "680 Tokens Ace Racer Gamepoint",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "GPACE1180",
+        "nama": "1180 Tokens Ace Racer Gamepoint",
+        "game": "ACE_RACER"
+      },
+      {
+        "kode_produk": "GPACE2880",
+        "nama": "2880 Tokens Ace Racer Gamepoint",
+        "game": "ACE_RACER"
+      }
+    ]
+  },
+  {
+    "operator_id": 89,
+    "total_products": 10,
+    "detected_games": [
+      "RAGNAROK"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPROO40",
+        "nama": "40 Nyan Berry Ragnarok Origin Global",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROO125",
+        "nama": "125 Nyan Berry Ragnarok Origin Global",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROO210",
+        "nama": "210 Nyan Berry Ragnarok Origin Global",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROO430",
+        "nama": "430 Nyan Berry Ragnarok Origin Global",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROO900",
+        "nama": "900 Nyan Berry Ragnarok Origin Global",
+        "game": "RAGNAROK"
+      }
+    ]
+  },
+  {
+    "operator_id": 91,
+    "total_products": 8,
+    "detected_games": [
+      "FOOTBALL_MASTER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPFBM18",
+        "nama": "18 FMP Football Master 2 Gamepoint",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "GPFBM95",
+        "nama": "95 FMP Football Master 2 Gamepoint",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "GPFBM191",
+        "nama": "191 FMP Football Master 2 Gamepoint",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "GPFBM383",
+        "nama": "382 FMP Football Master 2 Gamepoint",
+        "game": "FOOTBALL_MASTER"
+      },
+      {
+        "kode_produk": "GPFBM972",
+        "nama": "972 FMP Football Master 2 Gamepoint",
+        "game": "FOOTBALL_MASTER"
+      }
+    ]
+  },
+  {
+    "operator_id": 92,
+    "total_products": 6,
+    "detected_games": [
+      "VALORANT"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPVLR300",
+        "nama": "300 Points Valorant Gamepoint",
+        "game": "VALORANT"
+      },
+      {
+        "kode_produk": "GPVLR625",
+        "nama": "625 Points Valorant Gamepoint",
+        "game": "VALORANT"
+      },
+      {
+        "kode_produk": "GPVLR1125",
+        "nama": "1125 Points Valorant Gamepoint",
+        "game": "VALORANT"
+      },
+      {
+        "kode_produk": "GPVLR1650",
+        "nama": "1650 Points Valorant Gamepoint",
+        "game": "VALORANT"
+      },
+      {
+        "kode_produk": "GPVLR3400",
+        "nama": "3400 Points Valorant Gamepoint",
+        "game": "VALORANT"
+      }
+    ]
+  },
+  {
+    "operator_id": 93,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPHF60",
+        "nama": "60 Star Quartz Hyper Front (SEA) gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPHF300",
+        "nama": "300 Star Quartz Hyper Front (SEA) gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPHF1280",
+        "nama": "1280 Star Quartz Hyper Front (SEA) gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPHF1980",
+        "nama": "1980 Star Quartz Hyper Front (SEA) gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPHF3280",
+        "nama": "3280 Star Quartz Hyper Front (SEA) gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 94,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPGOV61",
+        "nama": "61 (60+1) Gem Goddess of Victory: Nikke Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPGOV123",
+        "nama": "123 (120+3) Gem Goddess of Victory: Nikke Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPGOV330",
+        "nama": "330 (320+10) Gem of Victory: Nikke Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPGOV840",
+        "nama": "840 (720+120) Gem of Victory: Nikke Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPGOV1760",
+        "nama": "1760 (1500+260) Gem of Victory: Nikke Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 95,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPLAF65",
+        "nama": "65 Credits LifeAfter Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLAF330",
+        "nama": "330 Credits LifeAfter Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLAF558",
+        "nama": "558 Credits LifeAfter Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLAF1108",
+        "nama": "1108 Credits LifeAfter Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPLAF2268",
+        "nama": "2268 Credits LifeAfter Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 96,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPMSW55",
+        "nama": "55 Star Credits MARVEL Super War Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMSW275",
+        "nama": "275 Star Credits MARVEL Super War Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMSW565",
+        "nama": "565 Star Credits MARVEL Super War Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMSW1155",
+        "nama": "1155 Star Credits MARVEL Super War Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMSW1765",
+        "nama": "1765 Star Credits MARVEL Super War Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 97,
+    "total_products": 8,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPMPS60",
+        "nama": "60 Jades Mirage:Perfect Skyline Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMPS300",
+        "nama": "300 Jades Mirage:Perfect Skyline Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMPS680",
+        "nama": "680 Jades Mirage:Perfect Skyline Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMPS980",
+        "nama": "980 Jades Mirage:Perfect Skyline Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMPS1280",
+        "nama": "1280 Jades Mirage:Perfect Skyline Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 98,
+    "total_products": 6,
+    "detected_games": [
+      "NARUTO"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPNSX60",
+        "nama": "60 Banknotes Naruto: Slugfest X (SEA) Gamepoint",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "GPNSX300",
+        "nama": "300 Banknotes Naruto: Slugfest X (SEA) Gamepoint",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "GPNSX980",
+        "nama": "980 Banknotes Naruto: Slugfest X (SEA) Gamepoint",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "GPNSX1980",
+        "nama": "1980 Banknotes Naruto: Slugfest X (SEA) Gamepoint",
+        "game": "NARUTO"
+      },
+      {
+        "kode_produk": "GPNSX3280",
+        "nama": "3280 Banknotes Naruto: Slugfest X (SEA) Gamepoint",
+        "game": "NARUTO"
+      }
+    ]
+  },
+  {
+    "operator_id": 99,
+    "total_products": 5,
+    "detected_games": [
+      "ONE_PUNCH_MAN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPOPM6",
+        "nama": "6 Coupon One Punch Man: The Strongest Gamepoint",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "GPOPM37",
+        "nama": "37 Coupon One Punch Man: The Strongest Gamepoint",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "GPOPM109",
+        "nama": "109 Coupon One Punch Man: The Strongest Gamepoint",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "GPOPM362",
+        "nama": "362 Coupon One Punch Man: The Strongest Gamepoint",
+        "game": "ONE_PUNCH_MAN"
+      },
+      {
+        "kode_produk": "GPOPM904",
+        "nama": "904 Coupon One Punch Man: The Strongest Gamepoint",
+        "game": "ONE_PUNCH_MAN"
+      }
+    ]
+  },
+  {
+    "operator_id": 100,
+    "total_products": 8,
+    "detected_games": [
+      "SAINT_SEIYA"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPSSA60",
+        "nama": "60 Coupons Saint Seiya Awakening Gamepoint",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "GPSSA300",
+        "nama": "300 Coupons Saint Seiya Awakening Gamepoint",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "GPSSA600",
+        "nama": "600 Coupons Saint Seiya Awakening Gamepoint",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "GPSSA1200",
+        "nama": "1200 Coupons Saint Seiya Awakening Gamepoint",
+        "game": "SAINT_SEIYA"
+      },
+      {
+        "kode_produk": "GPSSA1800",
+        "nama": "1800 Coupons Saint Seiya Awakening Gamepoint",
+        "game": "SAINT_SEIYA"
+      }
+    ]
+  },
+  {
+    "operator_id": 101,
+    "total_products": 15,
+    "detected_games": [
+      "MU_ORIGIN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPMOI130",
+        "nama": "130 Badges MU Origin 2 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMOI140",
+        "nama": "140 Diamonds MU Origin 2 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMOI362",
+        "nama": "362 Badges MU Origin 2 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMOI350",
+        "nama": "350 Diamonds MU Origin 2 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMOI568",
+        "nama": "568 Badges MU Origin 2 Gamepoint",
+        "game": "MU_ORIGIN"
+      }
+    ]
+  },
+  {
+    "operator_id": 102,
+    "total_products": 6,
+    "detected_games": [
+      "MU_ORIGIN"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPMUO70",
+        "nama": "70 Divine Diamonds MU Origin 3 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMUO350",
+        "nama": "350 Divine Diamonds MU Origin 3 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMUO1050",
+        "nama": "1050 Divine Diamonds MU Origin 3 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMUO2100",
+        "nama": "2100 Divine Diamonds MU Origin 3 Gamepoint",
+        "game": "MU_ORIGIN"
+      },
+      {
+        "kode_produk": "GPMUO3500",
+        "nama": "3500 Divine Diamonds MU Origin 3 Gamepoint",
+        "game": "MU_ORIGIN"
+      }
+    ]
+  },
+  {
+    "operator_id": 103,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPBTKA60",
+        "nama": "60 Gold Be The King (Asia) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKA300",
+        "nama": "300 Gold Be The King (Asia) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKA680",
+        "nama": "680 Gold Be The King (Asia) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKA2040",
+        "nama": "2040 Gold Be The King (Asia) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKA3400",
+        "nama": "3400 Gold Be The King (Asia) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 104,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPBTKE60",
+        "nama": "60 Gold Be The King (Europe) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKE300",
+        "nama": "300 Gold Be The King (Europe) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKE680",
+        "nama": "680 Gold Be The King (Europe) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKE2040",
+        "nama": "2040 Gold Be The King (Europe) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKE3400",
+        "nama": "3400 Gold Be The King (Europe) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 105,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPBTKU60",
+        "nama": "60 Gold Be The King (US) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKU300",
+        "nama": "300 Gold Be The King (US) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKU680",
+        "nama": "680 Gold Be The King (US) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKU2040",
+        "nama": "2040 Gold Be The King (US) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPBTKU3400",
+        "nama": "3400 Gold Be The King (US) Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 106,
+    "total_products": 17,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPNVA60",
+        "nama": "69 Diamonds Never After Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPDSNVA",
+        "nama": "Daily Specials Never After Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPDFNVA",
+        "nama": "Daily Feedback Never After Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPPPNVA",
+        "nama": "Promotion Pass Never After Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPNVA366",
+        "nama": "366 (349+17) Diamonds Never After Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 107,
+    "total_products": 10,
+    "detected_games": [
+      "RAGNAROK"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPROM7",
+        "nama": "7(6+1) Big Cat Coins Ragnarok M: Eternal Love Gamepoint",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROM14",
+        "nama": "14(12+2) Big Cat Coins Ragnarok M: Eternal Love Gamepoint",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROM21",
+        "nama": "21(18+3) Big Cat Coins Ragnarok M: Eternal Love Gamepoint",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROM28",
+        "nama": "28(24+4) Big Cat Coins Ragnarok M: Eternal Love Gamepoint",
+        "game": "RAGNAROK"
+      },
+      {
+        "kode_produk": "GPROM36",
+        "nama": "36(30+6) Big Cat Coins Ragnarok M: Eternal Love Gamepoint",
+        "game": "RAGNAROK"
+      }
+    ]
+  },
+  {
+    "operator_id": 108,
+    "total_products": 23,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPRV46",
+        "nama": "40 + 6 Jade Revelation Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPNPRV",
+        "nama": "Newbie Pack Revelation Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPMC7DRV",
+        "nama": "Monthly Card 7 days Revelation Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPWGWRV",
+        "nama": "Webpay Gift- Newbie Revelation Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPRV127",
+        "nama": "127 (110+17) Jade Revelation Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 109,
+    "total_products": 2,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPDMYFPRV",
+        "nama": "Dapat Mid-year Festival Pack Revelation Gamepoint",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPP7HRV",
+        "nama": "Pembelian 7 Hari Revelation Gifts Gamepoint",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 110,
+    "total_products": 14,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GUDW80",
+        "nama": "80 RC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GUDW160",
+        "nama": "160 RC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GUDWM",
+        "nama": "Kartu Mingguan",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GUDW250",
+        "nama": "250 RC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GUDW330",
+        "nama": "330 RC",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 111,
+    "total_products": 10,
+    "detected_games": [
+      "CALL_OF_DUTY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "CODM63",
+        "nama": "63 CP CODM Kiosgamer",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM128",
+        "nama": "128 CP CODM Kiosgamer",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM321",
+        "nama": "321 CP CODM Kiosgamer",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM645",
+        "nama": "645  CP CODM Kiosgamer",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "CODM800",
+        "nama": "800 CP CODM Kiosgamer",
+        "game": "CALL_OF_DUTY"
+      }
+    ]
+  },
+  {
+    "operator_id": 112,
+    "total_products": 8,
+    "detected_games": [
+      "KIOSGAMER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "AOV40",
+        "nama": "40 Voucher AOV Kiosgamer",
+        "game": "KIOSGAMER"
+      },
+      {
+        "kode_produk": "AOV90",
+        "nama": "90 Voucher AOV Kiosgamer",
+        "game": "KIOSGAMER"
+      },
+      {
+        "kode_produk": "AOV230",
+        "nama": "230 Voucher AOV Kiosgamer",
+        "game": "KIOSGAMER"
+      },
+      {
+        "kode_produk": "AOV470",
+        "nama": "470 Voucher AOV Kiosgamer",
+        "game": "KIOSGAMER"
+      },
+      {
+        "kode_produk": "AOV950",
+        "nama": "950 Voucher AOV Kiosgamer",
+        "game": "KIOSGAMER"
+      }
+    ]
+  },
+  {
+    "operator_id": 113,
+    "total_products": 8,
+    "detected_games": [
+      "HARRY_POTTER"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPHP60",
+        "nama": "60 Jewels Harry Potter GP",
+        "game": "HARRY_POTTER"
+      },
+      {
+        "kode_produk": "GPHP300",
+        "nama": "300 Jewels Harry Potter GP",
+        "game": "HARRY_POTTER"
+      },
+      {
+        "kode_produk": "GPHP750",
+        "nama": "680 + 70  Jewels Harry Potter GP",
+        "game": "HARRY_POTTER"
+      },
+      {
+        "kode_produk": "GPHP1145",
+        "nama": "980 + 165 Jewels Harry Potter GP",
+        "game": "HARRY_POTTER"
+      },
+      {
+        "kode_produk": "GPHP1550",
+        "nama": "1280 + 270 Jewels Harry Potter GP",
+        "game": "HARRY_POTTER"
+      }
+    ]
+  },
+  {
+    "operator_id": 116,
+    "total_products": 8,
+    "detected_games": [
+      "METAL_SLUG"
+    ],
+    "samples": [
+      {
+        "kode_produk": "MSA60",
+        "nama": "Metal Slug : Awakening 60 Ruby",
+        "game": "METAL_SLUG"
+      },
+      {
+        "kode_produk": "MSA310",
+        "nama": "Metal Slug : Awakening 310 Ruby",
+        "game": "METAL_SLUG"
+      },
+      {
+        "kode_produk": "MSAMC",
+        "nama": "Metal Slug : Awakening Monthly Card",
+        "game": "METAL_SLUG"
+      },
+      {
+        "kode_produk": "MSA630",
+        "nama": "Metal Slug : Awakening 630 Ruby",
+        "game": "METAL_SLUG"
+      },
+      {
+        "kode_produk": "MSAPMC",
+        "nama": "Metal Slug : Awakening Premium Monthly Card",
+        "game": "METAL_SLUG"
+      }
+    ]
+  },
+  {
+    "operator_id": 117,
+    "total_products": 7,
+    "detected_games": [
+      "HONKAI_STAR_RAIL"
+    ],
+    "samples": [
+      {
+        "kode_produk": "HSRG60",
+        "nama": "Honkai: Star Rail Gamepoint 60 Oneiric Shard ",
+        "game": "HONKAI_STAR_RAIL"
+      },
+      {
+        "kode_produk": "HSRG3030",
+        "nama": "Honkai: Star Rail Gamepoint 3030 (300 + 30) Oneiric Shard ",
+        "game": "HONKAI_STAR_RAIL"
+      },
+      {
+        "kode_produk": "HSRGESP",
+        "nama": "Honkai: Star Rail Gamepoint Express Supply Pass ",
+        "game": "HONKAI_STAR_RAIL"
+      },
+      {
+        "kode_produk": "HSRG1090",
+        "nama": "Honkai: Star Rail Gamepoint 1090 (980 + 110) Oneiric Shard ",
+        "game": "HONKAI_STAR_RAIL"
+      },
+      {
+        "kode_produk": "HSRG2240",
+        "nama": "Honkai: Star Rail Gamepoint 2240 (1980 + 260) Oneiric Shard ",
+        "game": "HONKAI_STAR_RAIL"
+      }
+    ]
+  },
+  {
+    "operator_id": 118,
+    "total_products": 8,
+    "detected_games": [
+      "CALL_OF_DUTY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGRCOD31",
+        "nama": "31 CP Call Of Duty DGR",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "DGRCOD63",
+        "nama": "63 CP Call Of Duty DGR",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "DGRCOD128",
+        "nama": "128 CP Call Of Duty DGR",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "DGRCOD321",
+        "nama": "321 CP Call Of Duty DGR",
+        "game": "CALL_OF_DUTY"
+      },
+      {
+        "kode_produk": "DGRCOD645",
+        "nama": "645 CP Call Of Duty DGR",
+        "game": "CALL_OF_DUTY"
+      }
+    ]
+  },
+  {
+    "operator_id": 119,
+    "total_products": 5,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGRAOV40",
+        "nama": "40 Voucher AOV DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRAOV90",
+        "nama": "90 Voucher AOV DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRAOV230",
+        "nama": "230 Voucher AOV DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRAOV470",
+        "nama": "470 Voucher AOV DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRAOV950",
+        "nama": "950 Voucher AOV DGR",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 120,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGRPB1200",
+        "nama": "1.200 PB Cash",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRPB2400",
+        "nama": "2.400 PB Cash DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRPB6000",
+        "nama": "6.000 PB Cash DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRPB12000",
+        "nama": "12.000 PB Cash DGR",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGRPB30000",
+        "nama": "30.000 PB Cash DGR",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 121,
+    "total_products": 11,
+    "detected_games": [
+      "MOBILE_LEGENDS",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "KCIDMBL10",
+        "nama": "10 (9 + 1) Diamonds Mobile Legend KCID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "KCIDMBL14",
+        "nama": "14 (13 + 1) Diamonds Mobile Legend KCID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "KCIDMBL18",
+        "nama": "18 (17 + 1) Diamonds Mobile Legend KCID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "KCIDMBL36",
+        "nama": "36 (33 + 3) Diamonds Mobile Legend KCID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "KCIDMBL74",
+        "nama": "74 (67 + 7) Diamonds Mobile Legend KCID",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 122,
+    "total_products": 13,
+    "detected_games": [
+      "FREE_FIRE"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHF5",
+        "nama": "5 Diamonds Free Fire DGH",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGHF12",
+        "nama": "12 Diamonds Free Fire DGH",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGHF70",
+        "nama": "70 Diamonds Free Fire DGH",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGHF140",
+        "nama": "140 Diamonds Free Fire DGH",
+        "game": "FREE_FIRE"
+      },
+      {
+        "kode_produk": "DGHF355",
+        "nama": "355 Diamonds Free Fire DGH",
+        "game": "FREE_FIRE"
+      }
+    ]
+  },
+  {
+    "operator_id": 123,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHAOV40",
+        "nama": "40 AOV DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHAOV90",
+        "nama": " 90 AOV DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHAOV230",
+        "nama": "230 AOV DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHAOV470",
+        "nama": "470 AOV DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHAOV950",
+        "nama": "950 AOV DGH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 124,
+    "total_products": 9,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHCOD31",
+        "nama": "31 CP DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHCOD62",
+        "nama": "62 CP DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHCOD127",
+        "nama": "127 CP DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHCOD321",
+        "nama": "321 CP DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHCOD645",
+        "nama": "645 CP DGH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 125,
+    "total_products": 6,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHPB1200",
+        "nama": "1.200 PB Cash DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHPB2400",
+        "nama": "2.400 PB Cash DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHPB6000",
+        "nama": "6.000 PB Cash DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHPB12000",
+        "nama": "12.000 PB Cash DGH",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "DGHPB30000",
+        "nama": "30.000 PB Cash DGH",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 126,
+    "total_products": 8,
+    "detected_games": [
+      "GOOGLE_PLAY"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHGL20",
+        "nama": "20rb Voucher Google Play DGH",
+        "game": "GOOGLE_PLAY"
+      },
+      {
+        "kode_produk": "DGHGL50",
+        "nama": "50rb Voucher Google Play DGH",
+        "game": "GOOGLE_PLAY"
+      },
+      {
+        "kode_produk": "DGHGL100",
+        "nama": "100rb Voucher Google Play DGH",
+        "game": "GOOGLE_PLAY"
+      },
+      {
+        "kode_produk": "DGHGL150",
+        "nama": "150rb Voucher Google Play DGH",
+        "game": "GOOGLE_PLAY"
+      },
+      {
+        "kode_produk": "DGHGL300",
+        "nama": "300rb Voucher Google Play DGH",
+        "game": "GOOGLE_PLAY"
+      }
+    ]
+  },
+  {
+    "operator_id": 128,
+    "total_products": 7,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPPUBGID30",
+        "nama": "30 UC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPPUBGID60",
+        "nama": "60 UC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPPUBGID325",
+        "nama": "300 + 25 UC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPPUBGID660",
+        "nama": "600 + 60 UC",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "GPPUBGID1800",
+        "nama": "1500 + 300 UC",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 129,
+    "total_products": 17,
+    "detected_games": [
+      "MOBILE_LEGENDS"
+    ],
+    "samples": [
+      {
+        "kode_produk": "GPMBLID5",
+        "nama": "5 Diamonds (5 + 0) Mobile Legend GP ID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBLID12",
+        "nama": "12 Diamonds (11 + 1) Mobile Legend GP ID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBLID19",
+        "nama": "19 Diamonds (17 + 2) Mobile Legend GP ID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBLID28",
+        "nama": "28 Diamonds (25 + 3) Mobile Legend GP ID",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "GPMBLID44",
+        "nama": "44 Diamonds (40 + 4) Mobile Legend GP ID",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  },
+  {
+    "operator_id": 130,
+    "total_products": 5,
+    "detected_games": [
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "MBLSMNID86",
+        "nama": "86 Diamonds (78 + 8) Smile Non Indo",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "MBLSMNIDWP",
+        "nama": "Weekly Diamond Pass Smile Non Indo",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "MBLSMNID172",
+        "nama": "172 Diamonds (156 + 16) Smile Non Indo",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "MBLSMNID257",
+        "nama": "257 Diamonds (234 + 23) Smile Non Indo",
+        "game": "NEEDS_REVIEW"
+      },
+      {
+        "kode_produk": "MBLSMNID706",
+        "nama": "706 Diamonds (625 + 81) Smile Non Indo",
+        "game": "NEEDS_REVIEW"
+      }
+    ]
+  },
+  {
+    "operator_id": 131,
+    "total_products": 4,
+    "detected_games": [
+      "GARENA"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHGS33",
+        "nama": "33 Garena Shell Voucher",
+        "game": "GARENA"
+      },
+      {
+        "kode_produk": "DGHGS66",
+        "nama": "66 Garena Shell Voucher",
+        "game": "GARENA"
+      },
+      {
+        "kode_produk": "DGHGS165",
+        "nama": "165 Garena Shell Voucher",
+        "game": "GARENA"
+      },
+      {
+        "kode_produk": "DGHGS330",
+        "nama": "330 Garena Shell Voucher",
+        "game": "GARENA"
+      }
+    ]
+  },
+  {
+    "operator_id": 132,
+    "total_products": 14,
+    "detected_games": [
+      "MOBILE_LEGENDS",
+      "NEEDS_REVIEW"
+    ],
+    "samples": [
+      {
+        "kode_produk": "DGHMBL5",
+        "nama": "5 Diamonds Mobile Legend DGHOST",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGHMBL12",
+        "nama": "12 Diamonds Mobile Legend DGHOST ",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGHMBL19",
+        "nama": "19 Diamonds Mobile Legend DGHOST",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGHMBL28",
+        "nama": "28 Diamonds Mobile Legend DGHOST",
+        "game": "MOBILE_LEGENDS"
+      },
+      {
+        "kode_produk": "DGHMBL44",
+        "nama": "44 Diamonds Mobile Legend DGHOST",
+        "game": "MOBILE_LEGENDS"
+      }
+    ]
+  }
+]

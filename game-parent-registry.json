@@ -1,0 +1,223 @@
+{
+  "never-after": {
+    "type": "GAME",
+    "name": "Never After"
+  },
+  "revelation": {
+    "type": "GAME",
+    "name": "Revelation"
+  },
+  "tower-of-fantasy": {
+    "type": "GAME",
+    "name": "Tower of Fantasy"
+  },
+  "ragnarok": {
+    "type": "GAME",
+    "name": "Ragnarok"
+  },
+  "genshin-impact": {
+    "type": "GAME",
+    "name": "Genshin Impact"
+  },
+  "mu-origin": {
+    "type": "GAME",
+    "name": "MU Origin"
+  },
+  "dragon-raja": {
+    "type": "GAME",
+    "name": "Dragon Raja"
+  },
+  "lords-mobile": {
+    "type": "GAME",
+    "name": "Lords Mobile"
+  },
+  "aov": {
+    "type": "GAME",
+    "name": "Arena of Valor"
+  },
+  "be-the-king": {
+    "type": "GAME",
+    "name": "Be The King"
+  },
+  "super-sus": {
+    "type": "GAME",
+    "name": "Super Sus"
+  },
+  "lifeafter": {
+    "type": "GAME",
+    "name": "LifeAfter"
+  },
+  "sausage-man": {
+    "type": "GAME",
+    "name": "Sausage Man"
+  },
+  "marvel-super-war": {
+    "type": "GAME",
+    "name": "Marvel Super War"
+  },
+  "ace-racer": {
+    "type": "GAME",
+    "name": "Ace Racer"
+  },
+  "metal-slug": {
+    "type": "GAME",
+    "name": "Metal Slug"
+  },
+  "naruto": {
+    "type": "GAME",
+    "name": "Naruto"
+  },
+  "one-punch-man": {
+    "type": "GAME",
+    "name": "One Punch Man"
+  },
+  "tom-and-jerry": {
+    "type": "GAME",
+    "name": "Tom and Jerry"
+  },
+  "garena-undawn": {
+    "type": "GAME",
+    "name": "Garena Undawn",
+    "virtual": true
+  },
+  "ludo-club": {
+    "type": "GAME",
+    "name": "Ludo Club"
+  },
+  "mangatoon": {
+    "type": "GAME",
+    "name": "MangaToon"
+  },
+  "mirage-perfect-skyline": {
+    "type": "GAME",
+    "name": "Mirage: Perfect Skyline"
+  },
+  "football-master": {
+    "type": "GAME",
+    "name": "Football Master"
+  },
+  "honkai-star-rail": {
+    "type": "GAME",
+    "name": "Honkai: Star Rail"
+  },
+  "laplace-m": {
+    "type": "GAME",
+    "name": "Laplace M"
+  },
+  "omega-legends": {
+    "type": "GAME",
+    "name": "Omega Legends"
+  },
+  "saint-seiya": {
+    "type": "GAME",
+    "name": "Saint Seiya"
+  },
+  "crystals-light-of-thei": {
+    "type": "GAME",
+    "name": "Crystals Light Of Thei"
+  },
+  "eudemons-online": {
+    "type": "GAME",
+    "name": "Eudemons Online"
+  },
+  "idle-legend": {
+    "type": "GAME",
+    "name": "Idle Legend"
+  },
+  "lita": {
+    "type": "GAME",
+    "name": "Lita"
+  },
+  "point-blank": {
+    "type": "GAME",
+    "name": "Point Blank"
+  },
+  "hyper-front": {
+    "type": "GAME",
+    "name": "Hyper Front"
+  },
+  "starfall-fantasy": {
+    "type": "GAME",
+    "name": "Starfall Fantasy"
+  },
+  "bigo-live": {
+    "type": "GAME",
+    "name": "Bigo Live"
+  },
+  "harry-potter": {
+    "type": "GAME",
+    "name": "Harry Potter"
+  },
+  "mango-live": {
+    "type": "GAME",
+    "name": "Mango Live"
+  },
+  "valorant": {
+    "type": "GAME",
+    "name": "Valorant"
+  },
+  "project-entropy": {
+    "type": "GAME",
+    "name": "Project Entropy"
+  },
+  "weekly-pass": {
+    "type": "CATEGORY",
+    "name": "Weekly Pass"
+  },
+  "twilight-pass": {
+    "type": "CATEGORY",
+    "name": "Twilight Pass"
+  },
+  "starlight-member": {
+    "type": "CATEGORY",
+    "name": "Starlight Member"
+  },
+  "weekly-monthly-card": {
+    "type": "CATEGORY",
+    "name": "Weekly / Monthly Card"
+  },
+  "garena": {
+    "type": "PROVIDER",
+    "name": "Garena"
+  },
+  "google-play": {
+    "type": "PLATFORM",
+    "name": "Google Play"
+  },
+  "mobile-legend": {
+    "type": "GAME",
+    "name": "Mobile Legend"
+  },
+  "bp-card": {
+    "type": "CATEGORY",
+    "name": "BP Card"
+  },
+  "hago": {
+    "type": "GAME",
+    "name": "Hago"
+  },
+  "call-of-duty-mobile": {
+    "type": "GAME",
+    "name": "Call of Duty Mobile"
+  },
+  "free-fire": {
+    "type": "GAME",
+    "name": "Free Fire"
+  },
+  "point-blank-unipin-ph": {
+    "type": "GAME",
+    "name": "Point Blank Unipin PH"
+  },
+  "gem-goddess-of-victory-nikke-gamepoint": {
+    "type": "GAME",
+    "name": "Gem Goddess of Victory: Nikke Gamepoint"
+  },
+  "gem-of-victory-nikke-gamepoint": {
+    "type": "GAME",
+    "name": "Gem of Victory: Nikke Gamepoint"
+  },
+  "m-m-higgs-domino-md": {
+    "type": "GAME",
+    "name": "M + M Higgs Domino MD"
+  }
+}

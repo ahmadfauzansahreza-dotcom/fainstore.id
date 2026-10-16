@@ -1,0 +1,1980 @@
+{
+  "totalGames": 221,
+  "totalProducts": 1347,
+  "summary": {
+    "NEEDS_REVIEW": {
+      "games": 17,
+      "products": 64
+    },
+    "mobile-legend": {
+      "games": 28,
+      "products": 235
+    },
+    "tower-of-fantasy": {
+      "games": 9,
+      "products": 14
+    },
+    "revelation": {
+      "games": 13,
+      "products": 25
+    },
+    "be-the-king": {
+      "games": 3,
+      "products": 18
+    },
+    "genshin-impact": {
+      "games": 6,
+      "products": 21
+    },
+    "bp-card": {
+      "games": 1,
+      "products": 1
+    },
+    "crystals-light-of-thei": {
+      "games": 1,
+      "products": 8
+    },
+    "never-after": {
+      "games": 30,
+      "products": 53
+    },
+    "mu-origin": {
+      "games": 6,
+      "products": 54
+    },
+    "eudemons-online": {
+      "games": 1,
+      "products": 7
+    },
+    "super-sus": {
+      "games": 3,
+      "products": 18
+    },
+    "hago": {
+      "games": 5,
+      "products": 43
+    },
+    "idle-legend": {
+      "games": 1,
+      "products": 7
+    },
+    "weekly-monthly-card": {
+      "games": 1,
+      "products": 1
+    },
+    "weekly-pass": {
+      "games": 5,
+      "products": 6
+    },
+    "lifeafter": {
+      "games": 3,
+      "products": 24
+    },
+    "lita": {
+      "games": 1,
+      "products": 6
+    },
+    "lords-mobile": {
+      "games": 4,
+      "products": 30
+    },
+    "ludo-club": {
+      "games": 2,
+      "products": 12
+    },
+    "mangatoon": {
+      "games": 2,
+      "products": 10
+    },
+    "mirage-perfect-skyline": {
+      "games": 2,
+      "products": 16
+    },
+    "point-blank": {
+      "games": 1,
+      "products": 8
+    },
+    "sausage-man": {
+      "games": 3,
+      "products": 24
+    },
+    "marvel-super-war": {
+      "games": 3,
+      "products": 20
+    },
+    "hyper-front": {
+      "games": 1,
+      "products": 6
+    },
+    "starfall-fantasy": {
+      "games": 1,
+      "products": 8
+    },
+    "starlight-member": {
+      "games": 1,
+      "products": 1
+    },
+    "twilight-pass": {
+      "games": 2,
+      "products": 2
+    },
+    "ace-racer": {
+      "games": 3,
+      "products": 18
+    },
+    "aov": {
+      "games": 4,
+      "products": 28
+    },
+    "ragnarok": {
+      "games": 7,
+      "products": 53
+    },
+    "bigo-live": {
+      "games": 1,
+      "products": 9
+    },
+    "call-of-duty-mobile": {
+      "games": 4,
+      "products": 46
+    },
+    "dragon-raja": {
+      "games": 5,
+      "products": 22
+    },
+    "football-master": {
+      "games": 2,
+      "products": 18
+    },
+    "free-fire": {
+      "games": 13,
+      "products": 256
+    },
+    "garena": {
+      "games": 1,
+      "products": 4
+    },
+    "honkai-star-rail": {
+      "games": 2,
+      "products": 7
+    },
+    "harry-potter": {
+      "games": 1,
+      "products": 8
+    },
+    "laplace-m": {
+      "games": 2,
+      "products": 12
+    },
+    "mango-live": {
+      "games": 1,
+      "products": 5
+    },
+    "metal-slug": {
+      "games": 3,
+      "products": 8
+    },
+    "naruto": {
+      "games": 3,
+      "products": 18
+    },
+    "omega-legends": {
+      "games": 2,
+      "products": 12
+    },
+    "one-punch-man": {
+      "games": 3,
+      "products": 19
+    },
+    "valorant": {
+      "games": 1,
+      "products": 6
+    },
+    "google-play": {
+      "games": 1,
+      "products": 8
+    },
+    "saint-seiya": {
+      "games": 2,
+      "products": 16
+    },
+    "project-entropy": {
+      "games": 1,
+      "products": 9
+    },
+    "tom-and-jerry": {
+      "games": 3,
+      "products": 23
+    }
+  },
+  "games": [
+    {
+      "id": "cmsq9ufj402hcs6lw2tzmpzht",
+      "name": "(",
+      "slug": "",
+      "products": 0,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9v43b02oys6lw5p9rzsyz",
+      "name": "(Smile Non Indo",
+      "slug": "smile-non-indo",
+      "products": 4,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tun10293s6lwsxotkxu8",
+      "name": "Adventure Pack Tower of Fantasy Global Gamepoint",
+      "slug": "adventure-pack-tower-of-fantasy-global-gamepoint",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vz21030qs6lwz6u6xm0g",
+      "name": "Bangsawan Knight Baru",
+      "slug": "bangsawan-knight-baru",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9vzhw030ws6lwzgrya881",
+      "name": "Bangsawan Knight Perpanjang",
+      "slug": "bangsawan-knight-perpanjang",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9vza2030ts6lws9pm5evm",
+      "name": "Bangsawan Viscount Baru",
+      "slug": "bangsawan-viscount-baru",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9vzpo030zs6lw2xtonuq5",
+      "name": "Bangsawan Viscount Perpanjang",
+      "slug": "bangsawan-viscount-perpanjang",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9tv1l0299s6lwpjva2s1j",
+      "name": "Basic Pass Tower of Fantasy Global Gamepoint",
+      "slug": "basic-pass-tower-of-fantasy-global-gamepoint",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ty0l02afs6lwjq8hongm",
+      "name": "Battle Pass Classic Revelation Gamepoint",
+      "slug": "battle-pass-classic-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tynl02aos6lwjcyoujx2",
+      "name": "Battle Pass Special Revelation Gamepoint",
+      "slug": "battle-pass-special-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tkoa0256s6lwyxjhumle",
+      "name": "Be The King (Asia) Gamepoint",
+      "slug": "be-the-king-asia-gamepoint",
+      "products": 6,
+      "parentSlug": "be-the-king",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tlwj025os6lwr2nvy4a9",
+      "name": "Be The King (Europe) Gamepoint",
+      "slug": "be-the-king-europe-gamepoint",
+      "products": 6,
+      "parentSlug": "be-the-king",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tn6r0266s6lwiiowlov3",
+      "name": "Be The King (US) Gamepoint",
+      "slug": "be-the-king-us-gamepoint",
+      "products": 6,
+      "parentSlug": "be-the-king",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pr1f00o0s6lws0azbj2e",
+      "name": "Blessing of the Welkin Moon Unipin MY",
+      "slug": "blessing-of-the-welkin-moon-unipin-my",
+      "products": 1,
+      "parentSlug": "genshin-impact",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rty401gos6lwbo1xg3ch",
+      "name": "Blessing of the Welkin Moon Unipin PH",
+      "slug": "blessing-of-the-welkin-moon-unipin-ph",
+      "products": 1,
+      "parentSlug": "genshin-impact",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rle701dfs6lwh993fe27",
+      "name": "BP Card",
+      "slug": "bp-card",
+      "products": 1,
+      "parentSlug": "bp-card",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tvnr029is6lwwddgaafv",
+      "name": "Collector Edition Pass Tower of Fantasy Global Gamepoint",
+      "slug": "collector-edition-pass-tower-of-fantasy-global-gamepoint",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p4ls00frs6lwqn5bgyd2",
+      "name": "Crystals Light Of Thei GP",
+      "slug": "crystals-light-of-thei-gp",
+      "products": 8,
+      "parentSlug": "crystals-light-of-thei",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tovv026us6lwwz7t9iqz",
+      "name": "Daily Feedback Never After Gamepoint",
+      "slug": "daily-feedback-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rm0p01dos6lw9amapwpw",
+      "name": "Daily Feedback Never After Unipin MY",
+      "slug": "daily-feedback-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sd7101o9s6lwaklirgwq",
+      "name": "Daily Feedback Never After Unipin PH",
+      "slug": "daily-feedback-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tppf0276s6lw4b0wxg66",
+      "name": "Daily Selection Never After Gamepoint",
+      "slug": "daily-selection-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rmwy01e0s6lwokb5rnsw",
+      "name": "Daily Selection Never After Unipin MY",
+      "slug": "daily-selection-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sdln01ofs6lwmjzbfp8h",
+      "name": "Daily Selection Never After Unipin PH",
+      "slug": "daily-selection-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tood026rs6lwuvqrp9yr",
+      "name": "Daily Specials Never After Gamepoint",
+      "slug": "daily-specials-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rlt801dls6lweiqdwmts",
+      "name": "Daily Specials Never After Unipin MY",
+      "slug": "daily-specials-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sczs01o6s6lwxr0m51l6",
+      "name": "Daily Specials Never After Unipin PH",
+      "slug": "daily-specials-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u1de02brs6lwo0mud3rs",
+      "name": "Dapat Mid-year Festival Pack Revelation Gamepoint",
+      "slug": "dapat-mid-year-festival-pack-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s5ls01l9s6lwwe8uvnwx",
+      "name": "Devine MU Origin Unipin PH",
+      "slug": "devine-mu-origin-unipin-ph",
+      "products": 9,
+      "parentSlug": "mu-origin",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uudi02las6lwmy2qd74k",
+      "name": "DGH",
+      "slug": "dgh",
+      "products": 15,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9vnos02wjs6lw86dzi146",
+      "name": "DGHMBL",
+      "slug": "dghmbl",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9unef02ims6lwatqwcpu6",
+      "name": "DGR",
+      "slug": "dgr",
+      "products": 5,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9tjdm024os6lw7gkmt8l0",
+      "name": "Divine MU Origin Gamepoint",
+      "slug": "divine-mu-origin-gamepoint",
+      "products": 6,
+      "parentSlug": "mu-origin",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9radl0193s6lw2uq2e736",
+      "name": "Divine MU Origin Unipin MY",
+      "slug": "divine-mu-origin-unipin-my",
+      "products": 9,
+      "parentSlug": "mu-origin",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r12i015fs6lwpr5e3cyt",
+      "name": "Eudemons Online Unipin MY Eudemons Points",
+      "slug": "eudemons-online-unipin-my-eudemons-points",
+      "products": 7,
+      "parentSlug": "eudemons-online",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9t5g801z9s6lwstvsql90",
+      "name": "Gem Goddess of Victory: Nikke Gamepoint",
+      "slug": "gem-goddess-of-victory-nikke-gamepoint",
+      "products": 2,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9t5uz01zfs6lw4g5jfftl",
+      "name": "Gem of Victory: Nikke Gamepoint",
+      "slug": "gem-of-victory-nikke-gamepoint",
+      "products": 6,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9ppw700nls6lww4axu46m",
+      "name": "Genesis Crystals Unipin MY",
+      "slug": "genesis-crystals-unipin-my",
+      "products": 5,
+      "parentSlug": "genshin-impact",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rtjr01gis6lwr2s2xf6l",
+      "name": "Genesis Crystals Unipin PH",
+      "slug": "genesis-crystals-unipin-ph",
+      "products": 6,
+      "parentSlug": "genshin-impact",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u3nw02cos6lww7431h55",
+      "name": "Glory Pass Premium",
+      "slug": "glory-pass-premium",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9qfn800wxs6lwhfi6c3e9",
+      "name": "Golden Star Super Sus",
+      "slug": "golden-star-super-sus",
+      "products": 6,
+      "parentSlug": "super-sus",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rh4k01brs6lw7zw4t8g0",
+      "name": "GoldStar Super Sus Unipin MY",
+      "slug": "goldstar-super-sus-unipin-my",
+      "products": 6,
+      "parentSlug": "super-sus",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9su5y01uxs6lwbzcvu1e0",
+      "name": "Goldstar Super Sus Unipin PH",
+      "slug": "goldstar-super-sus-unipin-ph",
+      "products": 6,
+      "parentSlug": "super-sus",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tqs9027ls6lwovp37pcb",
+      "name": "Great Adventure Never After Gamepoint",
+      "slug": "great-adventure-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ro8z01eis6lwscuyydj0",
+      "name": "Great Adventurer Never After Unipin MY",
+      "slug": "great-adventurer-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sfb701p3s6lw078skmrm",
+      "name": "Great Adventurer Never After Unipin PH",
+      "slug": "great-adventurer-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u3gp02cls6lwrqjgrh35",
+      "name": "Growth Fund (Rebate)",
+      "slug": "growth-fund-rebate",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9tqkq027is6lwvdxbc9aj",
+      "name": "Growth Fund Never After Gamepoint",
+      "slug": "growth-fund-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rnsv01ecs6lwlusd18yx",
+      "name": "Growth Fund Never After Unipin MY",
+      "slug": "growth-fund-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sevv01oxs6lwdhtirv51",
+      "name": "Growth Fund Never After Unipin PH",
+      "slug": "growth-fund-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tz2e02aus6lwpg0epnp5",
+      "name": "Growth Fund Revelation Gamepoint",
+      "slug": "growth-fund-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vrgd02xts6lwliay3md0",
+      "name": "Hago",
+      "slug": "hago",
+      "products": 35,
+      "parentSlug": "hago",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9q6rp00tls6lwxn8p9vbt",
+      "name": "Hago Bangsawan Inquiry",
+      "slug": "hago-bangsawan-inquiry",
+      "products": 1,
+      "parentSlug": "hago",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9q6jb00tis6lwbiivl042",
+      "name": "Hago Inquiry",
+      "slug": "hago-inquiry",
+      "products": 1,
+      "parentSlug": "hago",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rzla01ixs6lwy9e5vcgt",
+      "name": "Idle Legend Unipin PH",
+      "slug": "idle-legend-unipin-ph",
+      "products": 7,
+      "parentSlug": "idle-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qoca010cs6lwtdb0p4do",
+      "name": "INQUIRY TOKOVOUCHER",
+      "slug": "inquiry-tokovoucher",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9u39e02cis6lw3du9po7m",
+      "name": "Kartu Bulanan",
+      "slug": "kartu-bulanan",
+      "products": 1,
+      "parentSlug": "weekly-monthly-card",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u2fe02c6s6lwd7z4im4x",
+      "name": "Kartu Mingguan",
+      "slug": "kartu-mingguan",
+      "products": 1,
+      "parentSlug": "weekly-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9t77u01zxs6lwyu4bty75",
+      "name": "LifeAfter Gamepoint",
+      "slug": "lifeafter-gamepoint",
+      "products": 8,
+      "parentSlug": "lifeafter",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qzfy014rs6lw21tq28i2",
+      "name": "Lifeafter Unipin MY",
+      "slug": "lifeafter-unipin-my",
+      "products": 8,
+      "parentSlug": "lifeafter",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s11r01jis6lw9ah1v34n",
+      "name": "Lifeafter Unipin PH",
+      "slug": "lifeafter-unipin-ph",
+      "products": 8,
+      "parentSlug": "lifeafter",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r4y8016xs6lw2dq06sqp",
+      "name": "Lita Unipin MY",
+      "slug": "lita-unipin-my",
+      "products": 6,
+      "parentSlug": "lita",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r2t20163s6lwqnabubro",
+      "name": "Lord Mobile Unipin MY",
+      "slug": "lord-mobile-unipin-my",
+      "products": 5,
+      "parentSlug": "lords-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9quc1012rs6lw3erybgjr",
+      "name": "Lord Mobile Unipin PH",
+      "slug": "lord-mobile-unipin-ph",
+      "products": 7,
+      "parentSlug": "lords-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r7cf017xs6lwyvik9c2f",
+      "name": "Ludo Club Unipin MY",
+      "slug": "ludo-club-unipin-my",
+      "products": 6,
+      "parentSlug": "ludo-club",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r66f017fs6lw51rbw7ut",
+      "name": "Ludo Club Unipin PH",
+      "slug": "ludo-club-unipin-ph",
+      "products": 6,
+      "parentSlug": "ludo-club",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qlru00zcs6lwsx717ylx",
+      "name": "M + M Higgs Domino MD",
+      "slug": "m-m-higgs-domino-md",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9rds301afs6lwmbmylbvv",
+      "name": "Mangatoon Unipin MY",
+      "slug": "mangatoon-unipin-my",
+      "products": 5,
+      "parentSlug": "mangatoon",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s8rk01mis6lwxkyer579",
+      "name": "Mangatoon Unipin PH",
+      "slug": "mangatoon-unipin-ph",
+      "products": 5,
+      "parentSlug": "mangatoon",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9taay0216s6lwm35y3yr4",
+      "name": "Mirage:Perfect Skyline Gamepoint",
+      "slug": "mirage-perfect-skyline-gamepoint",
+      "products": 8,
+      "parentSlug": "mirage-perfect-skyline",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s9tr01mxs6lwwvyk22ce",
+      "name": "Mirage:Perfect Skyline Unipin PH",
+      "slug": "mirage-perfect-skyline-unipin-ph",
+      "products": 8,
+      "parentSlug": "mirage-perfect-skyline",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ty8g02ais6lwmdkbadsb",
+      "name": "Monthly Card Classic Revelation Gamepoint",
+      "slug": "monthly-card-classic-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9twxc02a0s6lw1dhn8ztl",
+      "name": "Monthly Card days Revelation Gamepoint",
+      "slug": "monthly-card-days-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tz9w02axs6lw6k9yy5wy",
+      "name": "Monthly Card Premium Revelation Gamepoint",
+      "slug": "monthly-card-premium-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tv8v029cs6lw1z320iu3",
+      "name": "Monthly Pass Tower of Fantasy Global Gamepoint",
+      "slug": "monthly-pass-tower-of-fantasy-global-gamepoint",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tfz3023fs6lwvzg9grsw",
+      "name": "MU Origin Gamepoint",
+      "slug": "mu-origin-gamepoint",
+      "products": 15,
+      "parentSlug": "mu-origin",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r8ln018fs6lwdvemxe75",
+      "name": "MU Origin Unipin MY",
+      "slug": "mu-origin-unipin-my",
+      "products": 8,
+      "parentSlug": "mu-origin",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s45901kos6lwgriida9m",
+      "name": "MU Origin Unipin PH",
+      "slug": "mu-origin-unipin-ph",
+      "products": 7,
+      "parentSlug": "mu-origin",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9togy026os6lwtj3rok4c",
+      "name": "Never After Gamepoint",
+      "slug": "never-after-gamepoint",
+      "products": 8,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rllo01dis6lw0khq85a1",
+      "name": "Never After Unipin MY",
+      "slug": "never-after-unipin-my",
+      "products": 9,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9scsa01o3s6lw035cf2ah",
+      "name": "Never After Unipin PH",
+      "slug": "never-after-unipin-ph",
+      "products": 9,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9twq1029xs6lwm60cnf89",
+      "name": "Newbie Pack Revelation Gamepoint",
+      "slug": "newbie-pack-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vzy90312s6lwk3zq81xm",
+      "name": "NHAGO",
+      "slug": "nhago",
+      "products": 4,
+      "parentSlug": "hago",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9w0tv031es6lwghkpqda5",
+      "name": "NHAGOK",
+      "slug": "nhagok",
+      "products": 2,
+      "parentSlug": "hago",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9q44f00sos6lw32k52utd",
+      "name": "Other",
+      "slug": "other",
+      "products": 19,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9vqev02xjs6lwu3kxfcbr",
+      "name": "Passe de Grande Valor",
+      "slug": "passe-de-grande-valor",
+      "products": 1,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9u1kt02bus6lwn9x22v7e",
+      "name": "Pembelian Hari Revelation Gifts Gamepoint",
+      "slug": "pembelian-hari-revelation-gifts-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sj3g01qls6lwkgishec0",
+      "name": "Point Blank Unipin PH",
+      "slug": "point-blank-unipin-ph",
+      "products": 8,
+      "parentSlug": "point-blank",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tq5i027cs6lwtip7y773",
+      "name": "Premium Pass Never After Gamepoint",
+      "slug": "premium-pass-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rnd201e6s6lwbrjnxyp9",
+      "name": "Premium Pass Never After Unipin MY",
+      "slug": "premium-pass-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9seo501ous6lw6l1oj1aq",
+      "name": "Premium Pass Never After Unipin PH",
+      "slug": "premium-pass-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tp3k026xs6lwkppq206j",
+      "name": "Promotion Pass Never After Gamepoint",
+      "slug": "promotion-pass-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rm8s01drs6lw6zkon4jj",
+      "name": "Promotion Pass Never After Unipin MY",
+      "slug": "promotion-pass-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sde901ocs6lwt5pdcy9w",
+      "name": "Promotion Pass Never After Unipin PH",
+      "slug": "promotion-pass-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9twin029us6lwn1kasrhb",
+      "name": "Revelation Gamepoint",
+      "slug": "revelation-gamepoint",
+      "products": 13,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tu66028xs6lwar9f0eq0",
+      "name": "Rookie Supplies Tower of Fantasy Global Gamepoint",
+      "slug": "rookie-supplies-tower-of-fantasy-global-gamepoint",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9psl700ois6lw9a8u9w8o",
+      "name": "Sausage Man GP",
+      "slug": "sausage-man-gp",
+      "products": 8,
+      "parentSlug": "sausage-man",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rrlv01fus6lw34i2wmzj",
+      "name": "Sausage Man Unipin MY",
+      "slug": "sausage-man-unipin-my",
+      "products": 8,
+      "parentSlug": "sausage-man",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ssge01u9s6lwhvtesde7",
+      "name": "Sausage Man Unipin PH",
+      "slug": "sausage-man-unipin-ph",
+      "products": 8,
+      "parentSlug": "sausage-man",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tpi40273s6lw5n1dht3i",
+      "name": "Senior Adventurer Never After Gamepoint",
+      "slug": "senior-adventurer-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rmoj01dxs6lw0s1x7xbf",
+      "name": "Senior Adventurer Never After Unipin MY",
+      "slug": "senior-adventurer-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sdtb01ois6lwzlozfhlb",
+      "name": "Senior Adventurer Never After Unipin PH",
+      "slug": "senior-adventurer-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9t8w4020ls6lwjwadqmm4",
+      "name": "Star MARVEL Super War Gamepoint",
+      "slug": "star-marvel-super-war-gamepoint",
+      "products": 7,
+      "parentSlug": "marvel-super-war",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rcam019us6lwy1x3ku0x",
+      "name": "Star Marvel Super war Unipin MY",
+      "slug": "star-marvel-super-war-unipin-my",
+      "products": 7,
+      "parentSlug": "marvel-super-war",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s7gy01m0s6lwndv4hbor",
+      "name": "Star Marvel Super war Unipin PH",
+      "slug": "star-marvel-super-war-unipin-ph",
+      "products": 6,
+      "parentSlug": "marvel-super-war",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9t3to01yrs6lwlqx3nayn",
+      "name": "Star Quartz Hyper Front (SEA) gamepoint",
+      "slug": "star-quartz-hyper-front-sea-gamepoint",
+      "products": 6,
+      "parentSlug": "hyper-front",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sqqs01tls6lwe33je5xj",
+      "name": "Starfall Fantasy Unipin PH",
+      "slug": "starfall-fantasy-unipin-ph",
+      "products": 8,
+      "parentSlug": "starfall-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pfs200k0s6lwp0ql889h",
+      "name": "Starlight Member Plus BR",
+      "slug": "starlight-member-plus-br",
+      "products": 1,
+      "parentSlug": "starlight-member",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tuud0296s6lwdnqdx4ew",
+      "name": "Tanium Tower of Fantasy Global Gamepoint",
+      "slug": "tanium-tower-of-fantasy-global-gamepoint",
+      "products": 5,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9q4d200srs6lwojunkccb",
+      "name": "Tanium Tower Of Fantasy GP Global",
+      "slug": "tanium-tower-of-fantasy-gp-global",
+      "products": 2,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9q4sm00sxs6lw5qw9p065",
+      "name": "Tanium Tower Of Fantasy GP SEA",
+      "slug": "tanium-tower-of-fantasy-gp-sea",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qb4x00v9s6lw2b8xx1t1",
+      "name": "Twilight ML Smile",
+      "slug": "twilight-ml-smile",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pfzv00k3s6lwgsfxwkri",
+      "name": "Twilight Pass BR",
+      "slug": "twilight-pass-br",
+      "products": 1,
+      "parentSlug": "twilight-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uqb602jps6lwcmkl8jpt",
+      "name": "Twilight Pass KCID",
+      "slug": "twilight-pass-kcid",
+      "products": 1,
+      "parentSlug": "twilight-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p2j300exs6lw92pvavah",
+      "name": "Unipin",
+      "slug": "unipin",
+      "products": 7,
+      "parentSlug": null,
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "cmsq9tqcs027fs6lw72e8rvkl",
+      "name": "Upgrade Awards Never After Gamepoint",
+      "slug": "upgrade-awards-never-after-gamepoint",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rnl701e9s6lwdtmh5jvf",
+      "name": "Upgrade Awards Never After Unipin MY",
+      "slug": "upgrade-awards-never-after-unipin-my",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9segj01ors6lwgh2a0gp6",
+      "name": "Upgrade Awards Never After Unipin PH",
+      "slug": "upgrade-awards-never-after-unipin-ph",
+      "products": 1,
+      "parentSlug": "never-after",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tue10290s6lwtamz55eq",
+      "name": "Upgrade Pass Tower of Fantasy Global Gamepoint",
+      "slug": "upgrade-pass-tower-of-fantasy-global-gamepoint",
+      "products": 1,
+      "parentSlug": "tower-of-fantasy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tx5j02a3s6lw3h4rathn",
+      "name": "Webpay Gift- Newbie Revelation Gamepoint",
+      "slug": "webpay-gift-newbie-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9txt102acs6lw8mg1mduv",
+      "name": "Webpay Gift- Promotion Revelation Gamepoint",
+      "slug": "webpay-gift-promotion-revelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tyuv02ars6lwdnnw6nxs",
+      "name": "Webpay Gift- SpecialRevelation Gamepoint",
+      "slug": "webpay-gift-specialrevelation-gamepoint",
+      "products": 1,
+      "parentSlug": "revelation",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9upkq02jgs6lw1rje70on",
+      "name": "Weekly Pass KCID",
+      "slug": "weekly-pass-kcid",
+      "products": 1,
+      "parentSlug": "weekly-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9v4b302p1s6lwfrhv49kk",
+      "name": "Weekly Pass Smile Non Indo",
+      "slug": "weekly-pass-smile-non-indo",
+      "products": 1,
+      "parentSlug": "weekly-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vjj302uys6lwlq884cdl",
+      "name": "Weekly Pass Unipin BR",
+      "slug": "weekly-pass-unipin-br",
+      "products": 1,
+      "parentSlug": "weekly-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qlbi00z6s6lw2cvxsntg",
+      "name": "x Weekly Pass ML GP",
+      "slug": "x-weekly-pass-ml-gp",
+      "products": 2,
+      "parentSlug": "weekly-pass",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9v02a02njs6lw4mr8v5ek",
+      "name": "(Mobile Legend GP ID",
+      "slug": "mobile-legend-gp-id",
+      "products": 15,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qpmd010us6lwhyc74x2l",
+      "name": "(Mobile Legend Unipin PH",
+      "slug": "mobile-legend-unipin-ph",
+      "products": 10,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9obe9004is6lwvjl7wc5p",
+      "name": "Mobile Legend",
+      "slug": "mobile-legend",
+      "products": 36,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vl0p02vjs6lwxa03lr2i",
+      "name": "Mobile Legend DGHOST",
+      "slug": "mobile-legend-dghost",
+      "products": 13,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qgwq00xfs6lwwnfu92pe",
+      "name": "Mobile Legend DGR",
+      "slug": "mobile-legend-dgr",
+      "products": 19,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pad200hxs6lwkiuw2tvr",
+      "name": "Mobile Legend Global",
+      "slug": "mobile-legend-global",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pald00i0s6lwfprux24i",
+      "name": "Mobile Legend Global GP",
+      "slug": "mobile-legend-global-gp",
+      "products": 47,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9q16100ros6lwhjsyud8u",
+      "name": "Mobile Legend GP",
+      "slug": "mobile-legend-gp",
+      "products": 4,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uoh802j1s6lw5yazrdw1",
+      "name": "Mobile Legend KCID",
+      "slug": "mobile-legend-kcid",
+      "products": 9,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pl5n00lus6lwpbquq7a7",
+      "name": "Mobile Legend RZID",
+      "slug": "mobile-legend-rzid",
+      "products": 7,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9oqq700acs6lwk4nu1pzg",
+      "name": "Mobile Legend Unipin",
+      "slug": "mobile-legend-unipin",
+      "products": 21,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pdrl00j9s6lw9rla1twt",
+      "name": "Mobile Legend Unipin BR",
+      "slug": "mobile-legend-unipin-br",
+      "products": 19,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pn8000mls6lw0gbi2wz0",
+      "name": "Mobile Legend Unipin MY",
+      "slug": "mobile-legend-unipin-my",
+      "products": 12,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pfiw00jxs6lwh8t4g4d5",
+      "name": "Starlight Member + Mobile Legend BR",
+      "slug": "starlight-member-mobile-legend-br",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p45u00fls6lw0uirz3pc",
+      "name": "Starlight Member Mobile Legend Global",
+      "slug": "starlight-member-mobile-legend-global",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pp8m00ncs6lwtuifwm5w",
+      "name": "Starlight Member Mobile Legend Unipin MY",
+      "slug": "starlight-member-mobile-legend-unipin-my",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p4dr00fos6lw5kuddpka",
+      "name": "Starlight Member Plus Mobile Legend Global",
+      "slug": "starlight-member-plus-mobile-legend-global",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ppop00nis6lwjadxklby",
+      "name": "Starlight Member Plus Mobile Legend Unipin MY",
+      "slug": "starlight-member-plus-mobile-legend-unipin-my",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p3y800fis6lwr0o2t9dw",
+      "name": "Twilight Pass Mobile Legend Global",
+      "slug": "twilight-pass-mobile-legend-global",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9v37902oms6lwsnrbxube",
+      "name": "Twilight Pass Mobile Legend GP ID",
+      "slug": "twilight-pass-mobile-legend-gp-id",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ppgw00nfs6lw5de9jgg0",
+      "name": "Twilight Pass Mobile Legend Unipin MY",
+      "slug": "twilight-pass-mobile-legend-unipin-my",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qrqg011rs6lwxcm0sy8z",
+      "name": "Twilight Pass Mobile Legend Unipin PH",
+      "slug": "twilight-pass-mobile-legend-unipin-ph",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9v1j202o4s6lwajwzdblh",
+      "name": "Weekly Pass Mobile Legend GP ID",
+      "slug": "weekly-pass-mobile-legend-gp-id",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qk8e00yrs6lw37ze3v7g",
+      "name": "x Weekly Pass Mobile Legend",
+      "slug": "x-weekly-pass-mobile-legend",
+      "products": 5,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u1sn02bxs6lwa8nd3gpg",
+      "name": "x Weekly Pass Mobile Legend Unipin MY",
+      "slug": "x-weekly-pass-mobile-legend-unipin-my",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qrjb011os6lwcf0pasny",
+      "name": "x Weekly Pass Mobile Legend Unipin PH",
+      "slug": "x-weekly-pass-mobile-legend-unipin-ph",
+      "products": 1,
+      "parentSlug": "mobile-legend",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sxfw01w9s6lw2l18y3au",
+      "name": "Ace Racer Gamepoint",
+      "slug": "ace-racer-gamepoint",
+      "products": 6,
+      "parentSlug": "ace-racer",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qvw2013cs6lwd4k79893",
+      "name": "Ace Racer Unipin MY",
+      "slug": "ace-racer-unipin-my",
+      "products": 6,
+      "parentSlug": "ace-racer",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ruzf01h3s6lwaecv1jdo",
+      "name": "Ace Racer Unipin PH",
+      "slug": "ace-racer-unipin-ph",
+      "products": 6,
+      "parentSlug": "ace-racer",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ut9r02kvs6lwgisiti2j",
+      "name": "AOV DGH",
+      "slug": "aov-dgh",
+      "products": 7,
+      "parentSlug": "aov",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9um2e02i4s6lwrurams7b",
+      "name": "AOV DGR",
+      "slug": "aov-dgr",
+      "products": 5,
+      "parentSlug": "aov",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u73i02e0s6lww06sk8ds",
+      "name": "AOV Kiosgamer",
+      "slug": "aov-kiosgamer",
+      "products": 8,
+      "parentSlug": "aov",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p0s800e9s6lwiypcfj2x",
+      "name": "AOV Vouchers",
+      "slug": "aov-vouchers",
+      "products": 8,
+      "parentSlug": "aov",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ttc8028ls6lwstz4xmmi",
+      "name": "Big Cat CoinsRagnarok M: Eternal Love Gamepoint",
+      "slug": "big-cat-coinsragnarok-m-eternal-love-gamepoint",
+      "products": 4,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9smoh01s0s6lw2dgvp2e4",
+      "name": "Big Cat Ragnarok M Unipin PH",
+      "slug": "big-cat-ragnarok-m-unipin-ph",
+      "products": 11,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ts230283s6lw44fum3yd",
+      "name": "Big Cat Ragnarok M: Eternal Love Gamepoint",
+      "slug": "big-cat-ragnarok-m-eternal-love-gamepoint",
+      "products": 5,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tt4x028is6lw6grt93hl",
+      "name": "Limited Special Gift Ragnarok M: Eternal Love Gamepoint",
+      "slug": "limited-special-gift-ragnarok-m-eternal-love-gamepoint",
+      "products": 1,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sypi01wrs6lwnpnb05w4",
+      "name": "Nyan Berry Ragnarok Origin Global",
+      "slug": "nyan-berry-ragnarok-origin-global",
+      "products": 10,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qrxr011us6lw55qvh42d",
+      "name": "Ragnarok Nyan Berry * Unipin PH",
+      "slug": "ragnarok-nyan-berry-unipin-ph",
+      "products": 11,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qx5m013us6lwwrinx6z9",
+      "name": "Ragnarok Origin Unipin MY Nyan Berry *",
+      "slug": "ragnarok-origin-unipin-my-nyan-berry",
+      "products": 11,
+      "parentSlug": "ragnarok",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rw8r01hls6lwubtf7ot0",
+      "name": "Bigo Live Unipin PH",
+      "slug": "bigo-live-unipin-ph",
+      "products": 9,
+      "parentSlug": "bigo-live",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pa4i00hus6lwlqya7yer",
+      "name": "Blessing of the Welkin Moon Genshin Impact GP",
+      "slug": "blessing-of-the-welkin-moon-genshin-impact-gp",
+      "products": 1,
+      "parentSlug": "genshin-impact",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p8kc00h9s6lwrhroa467",
+      "name": "Genesis Crystals Genshin Impact GP",
+      "slug": "genesis-crystals-genshin-impact-gp",
+      "products": 7,
+      "parentSlug": "genshin-impact",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uk8302hgs6lwhk1wnj21",
+      "name": "Call Of Duty DGR",
+      "slug": "call-of-duty-dgr",
+      "products": 8,
+      "parentSlug": "call-of-duty-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9of3k005us6lweycxxpy0",
+      "name": "Call Of Duty Mobile",
+      "slug": "call-of-duty-mobile",
+      "products": 19,
+      "parentSlug": "call-of-duty-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9oyuk00dis6lwpumun91g",
+      "name": "Call Of Duty Mobile UP",
+      "slug": "call-of-duty-mobile-up",
+      "products": 9,
+      "parentSlug": "call-of-duty-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u4xf02d6s6lw4hm9ig4q",
+      "name": "CODM Kiosgamer",
+      "slug": "codm-kiosgamer",
+      "products": 10,
+      "parentSlug": "call-of-duty-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pr9f00o3s6lwg61bbctn",
+      "name": "Coupuns Dragon Raja Unipin MY",
+      "slug": "coupuns-dragon-raja-unipin-my",
+      "products": 5,
+      "parentSlug": "dragon-raja",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p6hn00gfs6lw9pkkyexv",
+      "name": "Dragon Raja GP",
+      "slug": "dragon-raja-gp",
+      "products": 8,
+      "parentSlug": "dragon-raja",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ry5w01ics6lwwg56eug6",
+      "name": "Dragon Raja Unipin PH",
+      "slug": "dragon-raja-unipin-ph",
+      "products": 7,
+      "parentSlug": "dragon-raja",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p85d00h3s6lw8q55po9f",
+      "name": "Investment Fund Dragon Raja GP",
+      "slug": "investment-fund-dragon-raja-gp",
+      "products": 1,
+      "parentSlug": "dragon-raja",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9p8cw00h6s6lw9zwosmy9",
+      "name": "Investment Fund II Dragon Raja GP",
+      "slug": "investment-fund-ii-dragon-raja-gp",
+      "products": 1,
+      "parentSlug": "dragon-raja",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9t0u401xls6lw7nidxrw1",
+      "name": "Football Master Gamepoint",
+      "slug": "football-master-gamepoint",
+      "products": 8,
+      "parentSlug": "football-master",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rpih01f0s6lw5qw9jwhk",
+      "name": "Football Master Unipin MY",
+      "slug": "football-master-unipin-my",
+      "products": 10,
+      "parentSlug": "football-master",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9o05v0000s6lw2e09mpvm",
+      "name": "Free Fire",
+      "slug": "free-fire",
+      "products": 173,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vhu602uas6lwssjc5igq",
+      "name": "Free Fire Bulanan +",
+      "slug": "free-fire-bulanan",
+      "products": 8,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9onu90099s6lwsslv6bl5",
+      "name": "Free Fire DG",
+      "slug": "free-fire-dg",
+      "products": 24,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uqzl02jys6lwjia8182c",
+      "name": "Free Fire DGH",
+      "slug": "free-fire-dgh",
+      "products": 10,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9usn402kms6lwnns9wbye",
+      "name": "Free Fire DGHF",
+      "slug": "free-fire-dghf",
+      "products": 3,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qitb00y6s6lwj3j5k2p6",
+      "name": "Free Fire DGR",
+      "slug": "free-fire-dgr",
+      "products": 8,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pxiv00q9s6lw7jxlol8b",
+      "name": "Free Fire Member Bulanan NEW",
+      "slug": "free-fire-member-bulanan-new",
+      "products": 1,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qoz1010ls6lwwg7uy2gh",
+      "name": "Free Fire Member Bulanan NEW x",
+      "slug": "free-fire-member-bulanan-new-x",
+      "products": 4,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9vfc902tas6lwc5ioi7lk",
+      "name": "Free Fire Mingguan +",
+      "slug": "free-fire-mingguan",
+      "products": 8,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ov4q00c3s6lwg4lfzmb9",
+      "name": "Free Fire Unipin",
+      "slug": "free-fire-unipin",
+      "products": 11,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9o51i001xs6lwk4qy90k2",
+      "name": "Member Bulanan Free Fire",
+      "slug": "member-bulanan-free-fire",
+      "products": 1,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9o4u2001us6lw3zecnjv4",
+      "name": "Member Mingguan Free Fire",
+      "slug": "member-mingguan-free-fire",
+      "products": 1,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qorh010is6lw994bdaxg",
+      "name": "Member Mingguan Free Fire X",
+      "slug": "member-mingguan-free-fire-x",
+      "products": 4,
+      "parentSlug": "free-fire",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9v5zo02pps6lwplaeygui",
+      "name": "Garena Shell",
+      "slug": "garena-shell",
+      "products": 4,
+      "parentSlug": "garena",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ucq802g6s6lwecpbawh8",
+      "name": "Honkai: Star Rail Gamepoint Express Supply Pass",
+      "slug": "honkai-star-rail-gamepoint-express-supply-pass",
+      "products": 1,
+      "parentSlug": "honkai-star-rail",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uca702g0s6lwgx1148y7",
+      "name": "Honkai: Star Rail Gamepoint Oneiric Shard",
+      "slug": "honkai-star-rail-gamepoint-oneiric-shard",
+      "products": 6,
+      "parentSlug": "honkai-star-rail",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9u8rr02eos6lwuo7t5ryd",
+      "name": "Jewels Harry Potter GP",
+      "slug": "jewels-harry-potter-gp",
+      "products": 8,
+      "parentSlug": "harry-potter",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9r2lt0160s6lwqw2s5tbx",
+      "name": "Laplace M Unipin MY",
+      "slug": "laplace-m-unipin-my",
+      "products": 6,
+      "parentSlug": "laplace-m",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9s2oy01k6s6lwlzp23b7z",
+      "name": "Laplace M Unipin PH",
+      "slug": "laplace-m-unipin-ph",
+      "products": 6,
+      "parentSlug": "laplace-m",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9qcww00vxs6lw85mrgz0q",
+      "name": "Lords Mobile GP",
+      "slug": "lords-mobile-gp",
+      "products": 12,
+      "parentSlug": "lords-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9oxjr00d0s6lwvlbmtapu",
+      "name": "Lords Mobile Unipin",
+      "slug": "lords-mobile-unipin",
+      "products": 6,
+      "parentSlug": "lords-mobile",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9reuw01aus6lwqemul55n",
+      "name": "Mango Live Unipin MY",
+      "slug": "mango-live-unipin-my",
+      "products": 5,
+      "parentSlug": "mango-live",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uahs02fcs6lwwmwjg199",
+      "name": "Metal Slug : Awakening",
+      "slug": "metal-slug-awakening",
+      "products": 6,
+      "parentSlug": "metal-slug",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uaxv02fis6lwhnwdtrjg",
+      "name": "Metal Slug : Awakening Monthly Card",
+      "slug": "metal-slug-awakening-monthly-card",
+      "products": 1,
+      "parentSlug": "metal-slug",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9ubdn02fos6lwcspsd2lx",
+      "name": "Metal Slug : Awakening Premium Monthly Card",
+      "slug": "metal-slug-awakening-premium-monthly-card",
+      "products": 1,
+      "parentSlug": "metal-slug",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tbzg021us6lww6bfyg9x",
+      "name": "Naruto: Slugfest X (SEA) Gamepoint",
+      "slug": "naruto-slugfest-x-sea-gamepoint",
+      "products": 6,
+      "parentSlug": "naruto",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rfvn01b9s6lwpygf9zkg",
+      "name": "Naruto:SlugfestX Unipin MY",
+      "slug": "naruto-slugfestx-unipin-my",
+      "products": 6,
+      "parentSlug": "naruto",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sbj801nls6lw352yeoab",
+      "name": "Naruto:SlugfestX Unipin PH",
+      "slug": "naruto-slugfestx-unipin-ph",
+      "products": 6,
+      "parentSlug": "naruto",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pujo00p6s6lwx5zu67yv",
+      "name": "Omega Legends GP",
+      "slug": "omega-legends-gp",
+      "products": 6,
+      "parentSlug": "omega-legends",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sgkn01pls6lw8a0h7v19",
+      "name": "Omega Legends Unipin PH",
+      "slug": "omega-legends-unipin-ph",
+      "products": 6,
+      "parentSlug": "omega-legends",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rk3l01cxs6lw6fpdnij4",
+      "name": "One Punch Man : The Strongest Unipin MY",
+      "slug": "one-punch-man-the-strongest-unipin-my",
+      "products": 8,
+      "parentSlug": "one-punch-man",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9shve01q3s6lwelv77scs",
+      "name": "One Punch Man : The Strongest Unipin PH",
+      "slug": "one-punch-man-the-strongest-unipin-ph",
+      "products": 6,
+      "parentSlug": "one-punch-man",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9td8r022cs6lwwre1iqlr",
+      "name": "One Punch Man: The Strongest Gamepoint",
+      "slug": "one-punch-man-the-strongest-gamepoint",
+      "products": 5,
+      "parentSlug": "one-punch-man",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9t2j801y9s6lwqiik1uj7",
+      "name": "Points Valorant Gamepoint",
+      "slug": "points-valorant-gamepoint",
+      "products": 6,
+      "parentSlug": "valorant",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9uxb502mgs6lwkdk70cx6",
+      "name": "rb Google Play DGH",
+      "slug": "rb-google-play-dgh",
+      "products": 8,
+      "parentSlug": "google-play",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9tea1022rs6lwfl0ghoqh",
+      "name": "Saint Seiya Awakening Gamepoint",
+      "slug": "saint-seiya-awakening-gamepoint",
+      "products": 8,
+      "parentSlug": "saint-seiya",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sp1601sxs6lwucbmpv5b",
+      "name": "Saint Seiya Unipin PH",
+      "slug": "saint-seiya-unipin-ph",
+      "products": 8,
+      "parentSlug": "saint-seiya",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9sksm01r9s6lw6gh9myh7",
+      "name": "Star Chips Project Entropy Unipin PH",
+      "slug": "star-chips-project-entropy-unipin-ph",
+      "products": 9,
+      "parentSlug": "project-entropy",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9pw0700pos6lwk2ui6v5f",
+      "name": "Tom and Jerry GP",
+      "slug": "tom-and-jerry-gp",
+      "products": 7,
+      "parentSlug": "tom-and-jerry",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9rid101c9s6lwi9gjdipn",
+      "name": "Tom and Jerry Unipin MY",
+      "slug": "tom-and-jerry-unipin-my",
+      "products": 8,
+      "parentSlug": "tom-and-jerry",
+      "status": "AUTO_CANDIDATE"
+    },
+    {
+      "id": "cmsq9svcv01vfs6lwd8tceyej",
+      "name": "Tom and Jerry Unipin PH",
+      "slug": "tom-and-jerry-unipin-ph",
+      "products": 8,
+      "parentSlug": "tom-and-jerry",
+      "status": "AUTO_CANDIDATE"
+    }
+  ]
+}

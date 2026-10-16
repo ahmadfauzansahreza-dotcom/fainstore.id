@@ -1,0 +1,99 @@
+{
+  "hago": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago source game"
+  },
+  "bangsawan-knight-baru": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product"
+  },
+  "bangsawan-knight-perpanjang": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product"
+  },
+  "bangsawan-viscount-baru": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product"
+  },
+  "bangsawan-viscount-perpanjang": {
+    "type": "GAME",
+    "parentSlug": "hago",
+    "reason": "Hago Bangsawan product"
+  },
+  "dghmbl": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "DGHMBL Mobile Legend product"
+  },
+  "dgr": {
+    "type": "GAME",
+    "parentSlug": "point-blank-unipin-ph",
+    "reason": "DGR PB Cash products; existing PB source"
+  },
+  "gem-goddess-of-victory-nikke-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "gem-goddess-of-victory-nikke-gamepoint",
+    "reason": "Existing source game"
+  },
+  "gem-of-victory-nikke-gamepoint": {
+    "type": "GAME",
+    "parentSlug": "gem-of-victory-nikke-gamepoint",
+    "reason": "Existing source game"
+  },
+  "m-m-higgs-domino-md": {
+    "type": "GAME",
+    "parentSlug": "m-m-higgs-domino-md",
+    "reason": "Existing source game"
+  },
+  "glory-pass-premium": {
+    "type": "GAME",
+    "parentSlug": "garena-undawn",
+    "reason": "Undawn product family"
+  },
+  "growth-fund-rebate": {
+    "type": "GAME",
+    "parentSlug": "garena-undawn",
+    "reason": "Undawn product family"
+  },
+  "passe-de-grande-valor": {
+    "type": "GAME",
+    "parentSlug": "mobile-legend",
+    "reason": "Mobile Legend pass product"
+  },
+  "dgh": {
+    "type": "NON_GAME",
+    "parentSlug": null,
+    "reason": "Provider bucket with mixed PB Cash and CP products"
+  },
+  "unipin": {
+    "type": "NON_GAME",
+    "parentSlug": null,
+    "reason": "Payment/top-up provider bucket"
+  },
+  "inquiry-tokovoucher": {
+    "type": "SERVICE",
+    "parentSlug": null,
+    "reason": "Inquiry service"
+  },
+  "other": {
+    "type": "NON_GAME",
+    "parentSlug": null,
+    "reason": "Fallback bucket"
+  },
+  "": {
+    "type": "INVALID",
+    "parentSlug": null,
+    "reason": "Empty game slug/name"
+  },
+  "garena-undawn": {
+    "type": "PARENT_GAME",
+    "parentSlug": "garena-undawn",
+    "parentName": "Garena Undawn",
+    "virtual": true,
+    "reason": "Parent game untuk produk RC, Glory Pass Premium, dan Growth Fund"
+  }
+}

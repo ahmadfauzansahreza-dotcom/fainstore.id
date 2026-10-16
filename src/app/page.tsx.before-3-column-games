@@ -1,0 +1,725 @@
+"use client";
+import HeroBannerCarousel from "@/components/HeroBannerCarousel";
+
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import {
+  ArrowRight,
+  ChevronRight,
+  Gamepad2,
+  ShieldCheck,
+  Zap,
+  CreditCard,
+  Search,
+  Sparkles,
+  ShoppingCart,
+} from "lucide-react";
+
+interface Product {
+  id: string;
+  slug: string;
+  name: string;
+  priceIdr: number;
+  originalPriceIdr?: number | null;
+  discountPct?: number | null;
+  stockQty: number;
+  soldCount: number;
+  images?: {
+    url: string;
+  }[];
+  game?: {
+    name: string;
+    slug: string;
+  };
+  category?: {
+    id?: string;
+    name: string;
+    slug: string;
+  } | null;
+  type?: "GAME_ACCOUNT" | "TOPUP";
+}
+
+interface Game {
+  id?: string;
+  name: string;
+  slug: string;
+  imageUrl?: string | null;
+  isActive?: boolean;
+  categories?: {
+    id?: string;
+    name: string;
+    slug: string;
+  }[];
+}
+
+const formatRupiah = (value: number) =>
+  new Intl.NumberFormat("id-ID", {
+    style: "currency",
+    currency: "IDR",
+    maximumFractionDigits: 0,
+  }).format(value);
+
+export default function HomePage() {
+  const [products, setProducts] = useState<Product[]>([]);
+  const [games, setGames] = useState<Game[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [selectedProductCategory, setSelectedProductCategory] = useState<"TOPUP" | "VOUCHER" | "LIVE_APP">("TOPUP");
+  const [showAllGames, setShowAllGames] = useState(false);
+  const [canonicalMap, setCanonicalMap] = useState<Record<string, string | null>>({});
+  const [catalogTab, setCatalogTab] = useState<"topup" | "voucher" | "live">("topup");
+
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const res = await fetch("/api/products?pageSize=100", {
+          cache: "no-store",
+        });
+
+        if (!res.ok) {
+          throw new Error("Gagal mengambil produk");
+        }
+
+        const data = await res.json();
+
+        const items: Product[] = data.items ?? [];
+
+        setProducts(items);
+
+        const gamesRes = await fetch("/api/games", {
+          cache: "no-store",
+        });
+
+        if (!gamesRes.ok) {
+          throw new Error("Gagal mengambil daftar game");
+        }
+
+        const gamesData = await gamesRes.json();
+
+        const canonicalRes = await fetch("/canonical-game-map.json", {
+          cache: "no-store",
+        });
+        const canonicalData = await canonicalRes.json();
+
+        setCanonicalMap(canonicalData.aliases ?? {});
+        setGames(gamesData.items ?? []);
+      } catch (error) {
+        console.error("Homepage error:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
+
+  const categoryMatchers: Record<
+    "topup" | "voucher" | "live",
+    (categoryName: string, categorySlug: string) => boolean
+  > = {
+    topup: (name, slug) =>
+      name.toLowerCase().includes("top up") ||
+      name.toLowerCase().includes("topup") ||
+      slug.toLowerCase().includes("top-up") ||
+      slug.toLowerCase().includes("topup"),
+
+    voucher: (name, slug) =>
+      name.toLowerCase().includes("voucher") ||
+      slug.toLowerCase().includes("voucher"),
+
+    live: (name, slug) =>
+      name.toLowerCase().includes("live") ||
+      name.toLowerCase().includes("service") ||
+      name.toLowerCase().includes("app") ||
+      slug.toLowerCase().includes("live") ||
+      slug.toLowerCase().includes("service"),
+  };
+
+  const catalogGames = (() => {
+  const grouped = new Map<string, (typeof games)[number]>();
+
+  for (const game of games) {
+    const canonicalSlug = canonicalMap[game.slug] ?? game.slug;
+    const existing = grouped.get(canonicalSlug);
+
+    if (!existing || game.slug === canonicalSlug) {
+      grouped.set(canonicalSlug, game);
+    }
+  }
+
+  return Array.from(grouped.values()).filter((game) => {
+    const categories = game.categories ?? [];
+
+    return categories.some((category) =>
+      categoryMatchers[catalogTab](
+        category.name,
+        category.slug
+      )
+    );
+  });
+})();
+
+  const visibleGames = showAllGames
+    ? catalogGames
+    : catalogGames.slice(0, 12);
+
+  const popularGames = Array.from(
+    products
+      .filter((product) => product.game)
+      .reduce((map, product) => {
+        const game = product.game!;
+
+        const existing = map.get(game.slug);
+
+        if (!existing || product.soldCount > existing.soldCount) {
+          map.set(game.slug, {
+            name: game.name,
+            slug: game.slug,
+            image: product.images?.[0]?.url || "/placeholder-product.jpg",
+            soldCount: product.soldCount || 0,
+          });
+        }
+
+        return map;
+      }, new Map<string, {
+        name: string;
+        slug: string;
+        image: string;
+        soldCount: number;
+      }>())
+      .values()
+  ).sort((a, b) => b.soldCount - a.soldCount).slice(0, 6);
+
+  return (
+    <main className="min-h-screen bg-[#050505] text-white">
+
+      {/* =========================================================
+          HERO
+      ========================================================= */}
+        {/* HERO BANNER */}
+        {/* =========================================================
+            HERO BANNER CAROUSEL
+        ========================================================= */}
+        <section className="relative border-b border-white/10">
+          <div className="mx-auto max-w-7xl px-4 pt-4 pb-6 sm:px-6 lg:px-8">
+            <div className="relative block w-full">
+              <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-black shadow-2xl">
+                <HeroBannerCarousel />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* =========================================================
+          POPULAR GAMES — ITSUGAMARKET STYLE
+        ========================================================= */}
+        <section className="mx-auto max-w-7xl px-4 pt-8 pb-10 sm:px-6 lg:px-8">
+          <div className="mb-5">
+            <div className="flex items-center gap-2">
+              <span className="text-xl">🔥</span>
+              <h2 className="text-xl font-black sm:text-2xl">
+                POPULER SEKARANG!
+              </h2>
+            </div>
+
+            <p className="mt-2 text-xs text-white/50 sm:text-sm">
+              Berikut adalah beberapa game yang paling populer saat ini.
+            </p>
+          </div>
+
+          {(() => {
+            const popularSlugs = [
+              "mobile-legends",
+              "free-fire",
+              "pubg-mobile",
+              "genshin-impact",
+              "valorant",
+              "call-of-duty-mobile",
+              "ragnarok-origin",
+              "arena-of-valor",
+            ];
+
+            const popularGames = popularSlugs
+              .map((slug) => games.find((game) => game.slug === slug))
+              .filter((game): game is Game => Boolean(game));
+
+            return popularGames.length > 0 ? (
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-3">
+                {popularGames.map((game) => {
+                  const gameImage = game.imageUrl || "";
+
+                  return (
+                    <Link
+                      key={game.slug}
+                      href={`/game/${game.slug}`}
+                      className="group flex min-h-[76px] items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.025] px-3 py-3 transition duration-300 hover:border-blue-500/40 hover:bg-blue-500/[0.05]"
+                    >
+                      <div className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-white/10 bg-white/[0.04]">
+                        {gameImage ? (
+                          <img
+                            src={gameImage}
+                            alt={game.name}
+                            className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                          />
+                        ) : (
+                          <div className="flex h-full w-full items-center justify-center bg-white/[0.04]">
+                            <Gamepad2 className="h-6 w-6 text-white/30" />
+                          </div>
+                        )}
+                      </div>
+
+                      <div className="min-w-0">
+                        <p className="truncate text-xs font-bold text-white group-hover:text-blue-400">
+                          {game.name}
+                        </p>
+
+                        <p className="mt-1 text-[9px] text-white/40">
+                          FAIN STORE
+                        </p>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-8 text-center text-sm text-white/50">
+                Game populer belum tersedia.
+              </div>
+            );
+          })()}
+        </section>
+
+
+
+      {/* =========================================================
+          GAME CATALOG — ITSUGAMARKET STYLE
+      ========================================================= */}
+      <section className="mx-auto max-w-7xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
+
+        <div className="mb-5">
+          <div className="flex items-center gap-2">
+            <span className="text-xl">🎮</span>
+
+            <h2 className="text-xl font-black sm:text-2xl">
+              PILIH GAME
+            </h2>
+          </div>
+
+          <p className="mt-2 text-xs text-white/50 sm:text-sm">
+            Pilih layanan game yang ingin kamu gunakan.
+          </p>
+        </div>
+
+        {/* CATEGORY TABS */}
+        <div className="mb-6 grid grid-cols-3 gap-2">
+          {[
+            { id: "topup", label: "Top Up" },
+            { id: "voucher", label: "Voucher" },
+            { id: "live", label: "Live App" },
+          ].map((tab) => {
+            const active = catalogTab === tab.id;
+
+            return (
+              <button
+                key={tab.id}
+                type="button"
+                onClick={() => {
+                  setCatalogTab(
+                    tab.id as "topup" | "voucher" | "live"
+                  );
+                  setShowAllGames(false);
+                }}
+                className={[
+                  "h-11 rounded-xl border text-sm font-bold transition",
+                  active
+                    ? "border-blue-500 bg-blue-500 text-white"
+                    : "border-white/10 bg-white/[0.04] text-white/60 hover:border-white/20 hover:text-white",
+                ].join(" ")}
+              >
+                {tab.label}
+              </button>
+            );
+          })}
+        </div>
+
+        {(() => {
+          const matchesCategory = (game: Game) => {
+            const categories = game.categories ?? [];
+
+            return categories.some((category) => {
+              const name = category.name.toLowerCase();
+              const slug = category.slug.toLowerCase();
+
+              if (catalogTab === "voucher") {
+                return (
+                  name.includes("voucher") ||
+                  slug.includes("voucher")
+                );
+              }
+
+              if (catalogTab === "live") {
+                return (
+                  name.includes("live") ||
+                  name.includes("service") ||
+                  name.includes("app") ||
+                  slug.includes("live") ||
+                  slug.includes("service") ||
+                  slug.includes("app")
+                );
+              }
+
+              return (
+                name.includes("top up") ||
+                name.includes("topup") ||
+                slug.includes("top-up") ||
+                slug.includes("topup")
+              );
+            });
+          };
+
+          const catalogGames = (() => {
+  const grouped = new Map<string, (typeof games)[number]>();
+
+  for (const game of games) {
+    const canonicalSlug = canonicalMap[game.slug] ?? game.slug;
+    const existing = grouped.get(canonicalSlug);
+
+    if (!existing || game.slug === canonicalSlug) {
+      grouped.set(canonicalSlug, game);
+    }
+  }
+
+  return Array.from(grouped.values()).filter((game) => {
+    const categories = game.categories ?? [];
+
+    return categories.some((category) =>
+      categoryMatchers[catalogTab](
+        category.name,
+        category.slug
+      )
+    );
+  });
+})();
+
+          return catalogGames.length > 0 ? (
+            <>
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {visibleGames.map((game) => (
+                  <Link
+                    key={game.slug}
+                    href={`/game/${game.slug}`}
+                    className="group overflow-hidden rounded-2xl border border-white/10 bg-[#101010] transition duration-300 hover:-translate-y-0.5 hover:border-blue-500/50"
+                  >
+                    <div className="aspect-[4/3] overflow-hidden bg-white/[0.03]">
+                      <img
+                        src={game.imageUrl ?? undefined}
+                        alt={game.name}
+                        className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                      />
+                    </div>
+
+                    <div className="px-3 py-3">
+                      <h3 className="truncate text-sm font-bold text-white group-hover:text-blue-400">
+                        {game.name}
+                      </h3>
+
+                      <p className="mt-1 text-[10px] text-white/40">
+                        {catalogTab === "topup"
+                          ? "Top Up Game"
+                          : catalogTab === "voucher"
+                            ? "Voucher"
+                            : "Live App"}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+
+              {catalogGames.length > 12 && (
+                <div className="mt-6 flex justify-center">
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setShowAllGames((value) => !value)
+                    }
+                    className="rounded-xl border border-white/15 bg-white/[0.04] px-6 py-3 text-sm font-semibold text-white transition hover:border-blue-500/50 hover:bg-blue-500/10"
+                  >
+                    {showAllGames
+                      ? "Tampilkan Lebih Sedikit"
+                      : "Tampilkan Lainnya..."}
+                  </button>
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-12 text-center">
+              <Gamepad2 className="mx-auto h-10 w-10 text-white/20" />
+
+              <p className="mt-4 text-sm font-semibold text-white/60">
+                Belum ada game untuk kategori ini.
+              </p>
+
+              <p className="mt-1 text-xs text-white/35">
+                Game akan muncul setelah produk kategorinya tersedia.
+              </p>
+            </div>
+          );
+        })()}
+
+      </section>
+
+      {/* =========================================================
+          WHY FAIN STORE
+      ========================================================= */}
+      <section className="border-y border-white/10 bg-white/[0.015]">
+
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+
+          <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-blue-600/[0.12] to-transparent p-6 sm:p-10">
+
+            <div className="max-w-2xl">
+
+              <span className="text-xs font-bold uppercase tracking-widest text-blue-400">
+                Kenapa FAIN STORE?
+              </span>
+
+              <h2 className="mt-3 text-2xl font-black sm:text-3xl">
+                Belanja kebutuhan game tanpa ribet.
+              </h2>
+
+              <p className="mt-3 text-sm leading-6 text-white/50">
+                Kami membuat proses pembelian menjadi sederhana,
+                mulai dari memilih produk sampai pembayaran.
+              </p>
+
+            </div>
+
+
+            <div className="mt-8 grid gap-4 sm:grid-cols-3">
+
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
+
+                <Zap className="h-6 w-6 text-blue-400" />
+
+                <h3 className="mt-4 font-bold">
+                  Proses Cepat
+                </h3>
+
+                <p className="mt-2 text-xs leading-5 text-white/40">
+                  Pesanan diproses secepat mungkin setelah pembayaran.
+                </p>
+
+              </div>
+
+
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
+
+                <ShieldCheck className="h-6 w-6 text-blue-400" />
+
+                <h3 className="mt-4 font-bold">
+                  Transaksi Aman
+                </h3>
+
+                <p className="mt-2 text-xs leading-5 text-white/40">
+                  Sistem dirancang agar proses transaksi lebih aman
+                  dan jelas.
+                </p>
+
+              </div>
+
+
+              <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
+
+                <CreditCard className="h-6 w-6 text-blue-400" />
+
+                <h3 className="mt-4 font-bold">
+                  Pembayaran Praktis
+                </h3>
+
+                <p className="mt-2 text-xs leading-5 text-white/40">
+                  Mendukung alur pembayaran otomatis yang akan
+                  kita integrasikan.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================================================
+          CTA
+      ========================================================= */}
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+
+        <div className="overflow-hidden rounded-3xl border border-blue-500/20 bg-blue-600 p-7 text-center sm:p-10">
+
+          <h2 className="text-2xl font-black sm:text-3xl">
+            Siap belanja?
+          </h2>
+
+          <p className="mx-auto mt-3 max-w-lg text-sm text-blue-100/80">
+            Pilih game, pilih produk, dan lanjutkan transaksi
+            di FAIN STORE.
+          </p>
+
+          <Link
+            href="/produk"
+            className="mt-6 inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-black text-blue-600 transition hover:bg-blue-50"
+          >
+            Lihat Produk
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================================================
+          FOOTER
+      ========================================================= */}
+      <footer className="border-t border-white/10 bg-[#030303]">
+
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+
+            <div>
+
+              <h3 className="text-lg font-black">
+                FAIN <span className="text-blue-500">STORE</span>
+              </h3>
+
+              <p className="mt-3 max-w-xs text-xs leading-6 text-white/40">
+                Marketplace game dan produk digital untuk kebutuhan
+                gaming kamu.
+              </p>
+
+            </div>
+
+
+            <div>
+
+              <h4 className="text-sm font-bold">
+                Navigasi
+              </h4>
+
+              <div className="mt-4 flex flex-col gap-3 text-xs text-white/50">
+
+                <Link
+                  href="/"
+                  className="transition hover:text-white"
+                >
+                  Beranda
+                </Link>
+
+                <Link
+                  href="/produk"
+                  className="transition hover:text-white"
+                >
+                  Produk
+                </Link>
+
+                <Link
+                  href="/top-up"
+                  className="transition hover:text-white"
+                >
+                  Top Up
+                </Link>
+
+                <Link
+                  href="/faq"
+                  className="transition hover:text-white"
+                >
+                  FAQ
+                </Link>
+
+              </div>
+
+            </div>
+
+
+            <div>
+
+              <h4 className="text-sm font-bold">
+                Bantuan
+              </h4>
+
+              <div className="mt-4 flex flex-col gap-3 text-xs text-white/50">
+
+                <Link
+                  href="/contact"
+                  className="transition hover:text-white"
+                >
+                  Hubungi Kami
+                </Link>
+
+                <Link
+                  href="/privacy"
+                  className="transition hover:text-white"
+                >
+                  Kebijakan Privasi
+                </Link>
+
+                <Link
+                  href="/refund-policy"
+                  className="transition hover:text-white"
+                >
+                  Kebijakan Refund
+                </Link>
+
+              </div>
+
+            </div>
+
+
+            <div>
+
+              <h4 className="text-sm font-bold">
+                FAIN STORE
+              </h4>
+
+              <p className="mt-4 text-xs leading-6 text-white/40">
+                Belanja game dengan proses yang sederhana,
+                cepat, dan praktis.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div className="mt-10 border-t border-white/10 pt-6">
+
+            <p className="text-center text-[10px] text-white/30 sm:text-xs">
+              © {new Date().getFullYear()} FAIN STORE. All rights reserved.
+            </p>
+
+          </div>
+
+        </div>
+
+      </footer>
+
+
+      {/* =========================================================
+          MOBILE FLOATING SEARCH
+      ========================================================= */}
+      <Link
+        href="/produk"
+        className="fixed bottom-20 right-4 z-40 flex h-12 w-12 items-center justify-center rounded-full border border-blue-400/30 bg-blue-600 text-white shadow-xl shadow-blue-900/30 sm:hidden"
+        aria-label="Cari produk"
+      >
+        <Search className="h-5 w-5" />
+      </Link>
+
+    </main>
+  );
+}

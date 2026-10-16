@@ -1,0 +1,1139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+
+  --fain-bg: #0d0a06;
+  --fain-bg-2: #151008;
+  --fain-surface: #1b140a;
+  --fain-surface-2: #241b0d;
+
+  --fain-gold: #d6a84a;
+  --fain-gold-light: #f3d58a;
+  --fain-gold-dark: #9b6d24;
+
+  --fain-text: #f7ecd5;
+  --fain-text-muted: #b9aa8d;
+
+  --fain-border: rgba(214, 168, 74, 0.20);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--fain-gold);
+  color: #120d05;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* FAIN STORE premium surfaces */
+@layer components {
+  .fain-surface {
+    background:
+      linear-gradient(
+        145deg,
+        rgba(36, 27, 13, 0.92),
+        rgba(18, 13, 7, 0.96)
+      );
+    border: 1px solid var(--fain-border);
+    box-shadow:
+      0 10px 35px rgba(0, 0, 0, 0.28),
+      inset 0 1px 0 rgba(243, 213, 138, 0.035);
+  }
+
+  .fain-gold-button {
+    background: linear-gradient(
+      135deg,
+      var(--fain-gold-light),
+      var(--fain-gold)
+    );
+    color: #171006;
+    border: 1px solid rgba(243, 213, 138, 0.45);
+    box-shadow: 0 6px 22px rgba(214, 168, 74, 0.18);
+  }
+
+  .fain-gold-button:hover {
+    background: linear-gradient(
+      135deg,
+      #f7df9e,
+      var(--fain-gold-light)
+    );
+  }
+}
+
+/* Mengurangi kesan hitam polos pada section */
+main {
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(214, 168, 74, 0.055),
+      transparent 42%
+    );
+}
+
+/* Scrollbar */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* =========================================================
+   FAIN STORE — HOME RETURN TRANSITION
+   Dipakai ketika kembali dari halaman lain ke Homepage.
+   ========================================================= */
+
+.fain-home-return-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0.025) 22%,
+      rgba(0, 0, 0, 0.72) 72%,
+      rgba(0, 0, 0, 0.92) 100%
+    );
+  animation: fainHomeReturn 520ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  will-change: opacity;
+}
+
+.fain-home-return-glow {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(255, 255, 255, 0.16) 0%,
+      rgba(255, 255, 255, 0.04) 30%,
+      transparent 65%
+    );
+  animation: fainHomeGlow 520ms ease-out forwards;
+}
+
+@keyframes fainHomeReturn {
+  0% {
+    opacity: 0.92;
+  }
+
+  35% {
+    opacity: 0.62;
+  }
+
+  70% {
+    opacity: 0.24;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fainHomeGlow {
+  0% {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+
+  35% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fain-home-return-transition,
+  .fain-home-return-glow {
+    animation-duration: 1ms;
+  }
+}
+
+/* =========================================================
+   FAIN STORE — HOMEPAGE ENTER TRANSITION
+   ========================================================= */
+
+.fain-home-enter {
+  animation: fainHomePageEnter 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.fain-home-hero-enter {
+  animation: fainHomeHeroEnter 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.fain-home-popular-enter {
+  animation: fainHomePopularEnter 440ms cubic-bezier(0.16, 1, 0.3, 1) 70ms both;
+}
+
+.fain-home-catalog-enter {
+  animation: fainHomeCatalogEnter 460ms cubic-bezier(0.16, 1, 0.3, 1) 130ms both;
+}
+
+.fain-home-section-enter {
+  animation: fainHomeSectionEnter 500ms cubic-bezier(0.16, 1, 0.3, 1) 190ms both;
+}
+
+@keyframes fainHomePageEnter {
+  from {
+    opacity: 0.72;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fainHomeHeroEnter {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.985);
+    filter: blur(3px);
+  }
+
+  55% {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes fainHomePopularEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fainHomeCatalogEnter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fainHomeSectionEnter {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fain-home-enter,
+  .fain-home-hero-enter,
+  .fain-home-popular-enter,
+  .fain-home-catalog-enter,
+  .fain-home-section-enter {
+    animation: none !important;
+  }
+}
+
+
+
+
+/* FAIN STORE — ULTRA LIGHT DARK THEME */
+
+html,
+body {
+  background: #0b0b0b !important;
+}
+
+
+/* =========================================================
+   FAIN STORE — STAGGERED GAME CARD RETURN
+========================================================= */
+
+
+@keyframes fainCardReturn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.965);
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+
+
+
+
+/* FAIN STORE - catalog card return */
+.fain-card-return {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0) scale(0.965);
+  animation: fainGameCardReturn 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: opacity, transform;
+}
+
+@keyframes fainGameCardReturn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0) scale(0.965);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fain-card-return {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+
+
+/* =========================================================
+   FAIN STORE — VIDEO-LIKE CARD PRESS
+   Efek langsung pada elemen card sebelum navigasi.
+   ========================================================= */
+
+
+
+@keyframes fainCardPressVideo {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+    opacity: 1;
+  }
+
+  12% {
+    transform: scale(0.965);
+    filter: brightness(0.72);
+    opacity: 1;
+  }
+
+  28% {
+    transform: scale(0.955);
+    filter: brightness(0.68);
+    opacity: 1;
+  }
+
+  48% {
+    transform: scale(0.975);
+    filter: brightness(0.82);
+    opacity: 0.98;
+  }
+
+  100% {
+    transform: scale(0.99);
+    filter: brightness(0.92);
+    opacity: 0.92;
+  }
+}
+
+/* =========================================================
+   FAIN STORE — CARD PRESS / NAVIGATION
+   Satu sequence untuk POPULER + PILIH GAME.
+   ========================================================= */
+
+.fain-card-press {
+  position: relative;
+  transform-origin: center center;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  will-change: transform, filter, opacity;
+  transition:
+    transform 120ms cubic-bezier(0.2, 0.85, 0.25, 1),
+    filter 120ms ease,
+    opacity 120ms ease,
+    box-shadow 120ms ease;
+}
+
+/* Respons ketika jari masih menekan card. */
+.fain-card-press:active {
+  transform: scale(0.965);
+  filter: brightness(0.76);
+}
+
+/*
+ * Setelah click terdeteksi:
+ * 0–20%  : langsung masuk pressed
+ * 20–45% : sedikit release
+ * 45–100%: settle sebelum route berpindah
+ */
+.fain-card-press-navigating {
+  pointer-events: none !important;
+  z-index: 20;
+  animation: fainCardTapSequence 220ms cubic-bezier(0.22, 0.61, 0.36, 1) forwards !important;
+}
+
+.fain-card-press-navigating::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  border: 1px solid rgba(214, 168, 74, 0.62);
+  box-shadow:
+    0 0 0 1px rgba(214, 168, 74, 0.10),
+    0 0 20px rgba(214, 168, 74, 0.12);
+  opacity: 0;
+  animation: fainCardTapGlow 220ms ease-out forwards;
+}
+
+@keyframes fainCardTapSequence {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: brightness(1);
+  }
+
+  /* Tekan cepat */
+  12% {
+    opacity: 1;
+    transform: translate3d(0, 1px, 0) scale(0.965);
+    filter: brightness(0.74);
+  }
+
+  /* Tahan sepersekian detik */
+  30% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(0.972);
+    filter: brightness(0.82);
+  }
+
+  /* Release kecil / rebound */
+  52% {
+    opacity: 1;
+    transform: translate3d(0, -1px, 0) scale(0.985);
+    filter: brightness(0.91);
+  }
+
+  /* Kembali hampir normal tepat sebelum navigasi */
+  76% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(0.995);
+    filter: brightness(0.97);
+  }
+
+  /* Jangan fade / jangan mengecil di akhir */
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: brightness(1);
+  }
+}
+
+@keyframes fainCardTapGlow {
+  0% {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+
+  12% {
+    opacity: 0.72;
+    transform: scale(1);
+  }
+
+  45% {
+    opacity: 0.28;
+    transform: scale(1.003);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.006);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fain-card-press,
+  .fain-card-press-navigating {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .fain-card-press-navigating::after {
+    animation: none !important;
+    opacity: 0 !important;
+  }
+}
+
+/* =========================================================
+   POPULAR CARD RETURN
+   ========================================================= */
+
+.fain-card-popular-return {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+/*
+ * Class ini HANYA diberikan ketika homepage kembali
+ * dari halaman game.
+ *
+ * Token React + animationDelay membuat setiap card
+ * masuk satu per satu.
+ */
+.fain-card-popular-returning {
+  opacity: 0;
+  transform: translate3d(0, 14px, 0) scale(0.97);
+  animation: fainPopularCardReturn 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: opacity, transform;
+}
+
+@keyframes fainPopularCardReturn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0) scale(0.97);
+  }
+
+  55% {
+    opacity: 0.8;
+    transform: translate3d(0, 3px, 0) scale(0.99);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fain-card-press,
+  .fain-card-exit,
+  .fain-card-popular-return {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+
+/* =========================================================
+   FAIN STORE — PREMIUM DARK MARKETPLACE THEME
+   Visual layer only.
+   Tidak mengubah navigation / animation / return flow.
+   ========================================================= */
+
+:root {
+  --fain-bg-deep: #040404;
+  --fain-bg: #070707;
+  --fain-surface: #0b0b0c;
+  --fain-surface-2: #101011;
+  --fain-surface-3: #151516;
+
+  --fain-gold: #d6a84a;
+  --fain-gold-light: #f0cc73;
+  --fain-gold-soft: rgba(214, 168, 74, 0.12);
+
+  --fain-white-soft: rgba(255, 255, 255, 0.055);
+  --fain-white-border: rgba(255, 255, 255, 0.075);
+}
+
+/* ---------- PAGE DEPTH ---------- */
+
+html,
+body {
+  background:
+    radial-gradient(
+      900px 520px at 50% -120px,
+      rgba(214, 168, 74, 0.075),
+      transparent 68%
+    ),
+    radial-gradient(
+      700px 600px at 100% 32%,
+      rgba(255, 255, 255, 0.018),
+      transparent 72%
+    ),
+    radial-gradient(
+      760px 620px at 0% 68%,
+      rgba(214, 168, 74, 0.025),
+      transparent 74%
+    ),
+    linear-gradient(
+      180deg,
+      #050505 0%,
+      #070707 42%,
+      #050505 100%
+    ) !important;
+}
+
+/* ---------- HOMEPAGE SHELL ---------- */
+
+.fain-home-shell {
+  position: relative;
+  isolation: isolate;
+
+  background:
+    radial-gradient(
+      620px 360px at 18% 5%,
+      rgba(214, 168, 74, 0.040),
+      transparent 72%
+    ),
+    radial-gradient(
+      700px 460px at 88% 30%,
+      rgba(255, 255, 255, 0.016),
+      transparent 74%
+    ),
+    radial-gradient(
+      520px 420px at 48% 82%,
+      rgba(214, 168, 74, 0.014),
+      transparent 76%
+    ),
+    linear-gradient(
+      180deg,
+      #050505 0%,
+      #080808 44%,
+      #060606 72%,
+      #040404 100%
+    );
+}
+
+/* Ambient light tanpa membuat section menjadi kotak. */
+
+.fain-home-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  background:
+    radial-gradient(
+      480px 280px at 12% 28%,
+      rgba(214, 168, 74, 0.035),
+      transparent 72%
+    ),
+    radial-gradient(
+      520px 340px at 88% 70%,
+      rgba(255, 255, 255, 0.014),
+      transparent 74%
+    );
+
+  opacity: 1;
+}
+
+/* ---------- SOFT SECTION TRANSITIONS ---------- */
+
+.fain-section-surface {
+  position: relative;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.010) 0%,
+      rgba(255, 255, 255, 0.004) 38%,
+      rgba(214, 168, 74, 0.008) 72%,
+      transparent 100%
+    );
+}
+
+.fain-section-surface::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 1px;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.035),
+      rgba(214, 168, 74, 0.055),
+      rgba(255, 255, 255, 0.035),
+      transparent
+    );
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.fain-section-surface::after {
+  content: "";
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  bottom: 0;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.025),
+      rgba(214,168,74,0.045),
+      rgba(255,255,255,0.025),
+      transparent
+    );
+
+  opacity: 0.48;
+}
+
+/* ---------- PREMIUM CARD SURFACE ---------- */
+
+.fain-premium-card {
+  position: relative;
+  overflow: hidden;
+
+  /*
+   * Marketplace surface:
+   * ringan, menyatu dengan background,
+   * bukan panel gelap yang berdiri sendiri.
+   */
+  background:
+    radial-gradient(
+      420px 180px at 8% -10%,
+      rgba(214,168,74,0.035),
+      transparent 72%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.032),
+      rgba(255,255,255,0.010) 52%,
+      rgba(214,168,74,0.012) 100%
+    );
+
+  border: 1px solid rgba(255,255,255,0.055);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.022),
+    inset 0 -1px 0 rgba(0,0,0,0.12);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition:
+    border-color 260ms ease,
+    background 260ms ease,
+    box-shadow 260ms ease,
+    transform 260ms ease;
+}
+
+.fain-premium-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      300px 120px at 0% 0%,
+      rgba(255,255,255,0.028),
+      transparent 70%
+    ),
+    linear-gradient(
+      120deg,
+      rgba(255,255,255,0.018),
+      transparent 32%,
+      transparent 70%,
+      rgba(214,168,74,0.014)
+    );
+
+  opacity: 0.72;
+}
+
+.fain-premium-card:hover {
+  border-color: rgba(214,168,74,0.20);
+
+  background:
+    radial-gradient(
+      420px 180px at 8% -10%,
+      rgba(214,168,74,0.050),
+      transparent 72%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.040),
+      rgba(255,255,255,0.012) 52%,
+      rgba(214,168,74,0.018)
+    );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.028),
+    0 10px 28px rgba(0,0,0,0.14);
+}
+
+/* ---------- GOLD ACCENT, NOT SOLID ---------- */
+
+.fain-gold-button {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.13),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #e0b65c 0%,
+      #d6a84a 46%,
+      #b98a35 100%
+    ) !important;
+
+  box-shadow:
+    0 12px 32px rgba(214,168,74,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.22);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.fain-gold-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      110deg,
+      transparent 0%,
+      rgba(255,255,255,0.16) 42%,
+      transparent 62%
+    );
+
+  transform: translateX(-110%);
+  transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fain-gold-button:hover::after {
+  transform: translateX(110%);
+}
+
+/* ---------- CATEGORY TABS ---------- */
+
+.fain-category-tab {
+  position: relative;
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.035),
+      rgba(255,255,255,0.010)
+    );
+
+  border: 1px solid rgba(255,255,255,0.075);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.025),
+    0 8px 24px rgba(0,0,0,0.12);
+
+  transition:
+    background 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+.fain-category-tab:hover {
+  border-color: rgba(214,168,74,0.22);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(214,168,74,0.055),
+      rgba(255,255,255,0.012)
+    );
+
+  box-shadow:
+    0 10px 28px rgba(0,0,0,0.20),
+    inset 0 1px 0 rgba(255,255,255,0.035);
+}
+
+.fain-category-tab-active {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(214, 168, 74, 0.58);
+  color: #f8d889;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(214, 168, 74, 0.20) 0%,
+      rgba(214, 168, 74, 0.08) 45%,
+      rgba(255, 255, 255, 0.025) 100%
+    ),
+    rgba(255, 255, 255, 0.035);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.22),
+    0 8px 24px rgba(0, 0, 0, 0.18),
+    0 0 22px rgba(214, 168, 74, 0.07);
+}
+
+.fain-category-tab-active::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(
+      circle at 18% 0%,
+      rgba(255, 226, 154, 0.16),
+      transparent 42%
+    ),
+    linear-gradient(
+      115deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.045) 48%,
+      transparent 72%
+    );
+  pointer-events: none;
+}
+
+.fain-category-tab-active::after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 224, 145, 0.72),
+    transparent
+  );
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.fain-category-tab-idle {
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  color: rgba(255, 255, 255, 0.56);
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.045),
+      rgba(255, 255, 255, 0.018)
+    ),
+    rgba(8, 8, 8, 0.42);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.035),
+    0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.fain-category-tab-idle:hover {
+  border-color: rgba(214, 168, 74, 0.24);
+  color: rgba(255, 255, 255, 0.82);
+  background:
+    linear-gradient(
+      145deg,
+      rgba(214, 168, 74, 0.075),
+      rgba(255, 255, 255, 0.025)
+    ),
+    rgba(8, 8, 8, 0.48);
+}
+
+/* ---------- LOAD MORE ---------- */
+
+.fain-load-more {
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      180px 80px at 50% 0%,
+      rgba(214,168,74,0.075),
+      transparent 75%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(214,168,74,0.085),
+      rgba(255,255,255,0.018)
+    );
+
+  border: 1px solid rgba(214,168,74,0.40);
+
+  box-shadow:
+    0 14px 38px rgba(0,0,0,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.035);
+
+  transition:
+    background 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+.fain-load-more:hover {
+  border-color: rgba(240,204,115,0.65);
+
+  background:
+    radial-gradient(
+      200px 90px at 50% 0%,
+      rgba(214,168,74,0.13),
+      transparent 75%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(214,168,74,0.13),
+      rgba(255,255,255,0.025)
+    );
+
+  box-shadow:
+    0 18px 44px rgba(214,168,74,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 640px) {
+  .fain-premium-card {
+    box-shadow:
+      0 12px 32px rgba(0,0,0,0.20),
+      inset 0 1px 0 rgba(255,255,255,0.022);
+  }
+
+  .fain-home-shell::before {
+    background:
+      radial-gradient(
+        340px 240px at 20% 22%,
+        rgba(214,168,74,0.028),
+        transparent 74%
+      ),
+      radial-gradient(
+        380px 260px at 85% 68%,
+        rgba(255,255,255,0.012),
+        transparent 75%
+      );
+  }
+}
+
+
+/* ---------- FAIN STORE GLASS NAVIGATION ---------- */
+
+/*
+ * Header + bottom navigation:
+ * transparan, menyatu dengan background,
+ * tetap terbaca saat scrolling.
+ */
+
+.fain-glass-header {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(5, 5, 5, 0.62) 0%,
+      rgba(5, 5, 5, 0.38) 58%,
+      rgba(5, 5, 5, 0.18) 100%
+    );
+  border-bottom-color: rgba(255, 255, 255, 0.055) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+  backdrop-filter: blur(18px) saturate(135%);
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.10),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.018);
+}
+
+.fain-glass-bottom-nav {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(5, 5, 5, 0.70) 0%,
+      rgba(5, 5, 5, 0.46) 55%,
+      rgba(5, 5, 5, 0.20) 100%
+    ) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.055) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+  backdrop-filter: blur(18px) saturate(135%);
+  box-shadow:
+    0 -10px 30px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.018);
+}
+
+/* Sedikit lebih transparan di layar besar. */
+@media (min-width: 768px) {
+  .fain-glass-header {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(5, 5, 5, 0.52),
+        rgba(5, 5, 5, 0.22)
+      );
+  }
+}
+
+/* Kurangi efek jika perangkat meminta motion/efek visual minimal. */
+@media (prefers-reduced-transparency: reduce) {
+  .fain-glass-header,
+  .fain-glass-bottom-nav {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: rgba(5, 5, 5, 0.88) !important;
+  }
+}
+
